@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='5994936387' timestamp='2018-10-18T08:38:16Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4383637' lon='-16.3114082' />
+  <node id='5994936394' timestamp='2018-10-18T08:38:16Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384244' lon='-16.3112265'>
+    <tag k='entrance' v='yes' />
+    <tag k='motor_vehicle' v='designated' />
+  </node>
+  <node id='5994936436' timestamp='2018-10-18T08:38:18Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4382984' lon='-16.3113322' />
+  <node id='5994936459' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4383994' lon='-16.3114074' />
+  <node id='5994936471' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384142' lon='-16.3112696' />
+  <node id='5994936474' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.438357' lon='-16.3113432' />
+  <node id='5994936494' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4383841' lon='-16.3112455' />
+  <node id='5994936511' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384797' lon='-16.3112707' />
+  <node id='5994936519' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384329' lon='-16.3112845' />
+  <node id='5994936536' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4383771' lon='-16.3113094' />
+  <node id='5994936542' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384124' lon='-16.3112169' />
+  <node id='5994936543' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384009' lon='-16.3113274' />
+  <node id='5994936546' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4383506' lon='-16.3114085' />
+  <node id='5994936547' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384535' lon='-16.3113152' />
+  <node id='5994936548' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384536' lon='-16.3112498' />
+  <node id='5994936549' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4383809' lon='-16.3113613' />
+  <node id='5994936550' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384449' lon='-16.3112429'>
+    <tag k='addr:housename' v='Maguan-I' />
+    <tag k='addr:housenumber' v='35' />
+    <tag k='addr:postcode' v='38107' />
+    <tag k='addr:street' v='Calle San Albino' />
+    <tag k='entrance' v='yes' />
+  </node>
+  <node id='5994936551' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4384362' lon='-16.3112359' />
+  <way id='635546278' timestamp='2018-10-18T08:38:22Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <nd ref='5994936494' />
+    <nd ref='5994936436' />
+    <nd ref='5994936546' />
+    <nd ref='5994936387' />
+    <nd ref='5994936459' />
+    <nd ref='5994936547' />
+    <nd ref='5994936511' />
+    <nd ref='5994936548' />
+    <nd ref='5994936519' />
+    <nd ref='5994936471' />
+    <nd ref='5994936494' />
+  </way>
+  <way id='635546285' timestamp='2018-10-18T08:38:23Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <nd ref='5994936548' />
+    <nd ref='5994936550' />
+    <nd ref='5994936551' />
+    <nd ref='5994936394' />
+    <nd ref='5994936542' />
+    <nd ref='5994936494' />
+    <nd ref='5994936436' />
+    <nd ref='5994936546' />
+    <nd ref='5994936387' />
+    <nd ref='5994936459' />
+    <nd ref='5994936547' />
+    <nd ref='5994936511' />
+    <nd ref='5994936548' />
+  </way>
+  <way id='635546293' timestamp='2018-10-18T08:38:23Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <nd ref='5994936551' />
+    <nd ref='5994936394' />
+    <nd ref='5994936542' />
+    <nd ref='5994936494' />
+    <nd ref='5994936471' />
+    <nd ref='5994936551' />
+    <tag k='building:levels' v='3' />
+    <tag k='building:part' v='yes' />
+  </way>
+  <way id='635546294' timestamp='2018-10-18T08:38:23Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <nd ref='5994936543' />
+    <nd ref='5994936549' />
+    <nd ref='5994936474' />
+    <nd ref='5994936536' />
+    <nd ref='5994936543' />
+  </way>
+  <relation id='8827380' timestamp='2018-10-18T08:38:24Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <member type='way' ref='635546285' role='outer' />
+    <member type='way' ref='635546294' role='inner' />
+    <tag k='building' v='apartments' />
+    <tag k='building:levels' v='4' />
+    <tag k='building:levels:underground' v='1' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+  <relation id='8827381' timestamp='2018-10-18T08:38:24Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <member type='way' ref='635546278' role='outer' />
+    <member type='way' ref='635546294' role='inner' />
+    <tag k='building:levels' v='3' />
+    <tag k='building:levels:underground' v='1' />
+    <tag k='building:part' v='yes' />
+    <tag k='type' v='multipolygon' />
+  </relation>
+</osm>

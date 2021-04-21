@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="6379653715" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.433996" lon="2.1863822"/>
+    <node id="6379653757" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339262" lon="2.1862972"/>
+    <node id="6379653767" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339463" lon="2.1863699"/>
+    <node id="6379654504" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.433918" lon="2.1863629"/>
+    <node id="6379654521" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339216" lon="2.1863341"/>
+    <node id="6379654537" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.433977" lon="2.1863095"/>
+    <node id="6379654538" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340028" lon="2.1863158"/>
+    <node id="6379653738" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340646" lon="2.1865805"/>
+    <node id="6379653758" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.434071" lon="2.1865009"/>
+    <node id="6379653769" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341768" lon="2.1865257"/>
+    <node id="6379653771" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341265" lon="2.1865139"/>
+    <node id="6379653772" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341524" lon="2.18652"/>
+    <node id="6379653784" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4342324" lon="2.1865388"/>
+    <node id="6379654499" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4342226" lon="2.1865365"/>
+    <node id="6379654502" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4342004" lon="2.1865313"/>
+    <node id="6379654518" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341386" lon="2.1865618"/>
+    <node id="6379654524" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.434227" lon="2.1865812"/>
+    <node id="6379654528" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341348" lon="2.1865961"/>
+    <node id="6379654529" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340687" lon="2.1865465"/>
+    <node id="6379654530" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340654" lon="2.1865448"/>
+    <node id="6379653706" version="1" timestamp="2019-04-02T21:22:35Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338317" lon="2.1864151">
+      <tag k="addr:housenumber" v="90"/>
+      <tag k="addr:postcode" v="08030"/>
+      <tag k="addr:street" v="Carrer d&apos;Ignasi Iglésias"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6379653726" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338559" lon="2.1864505"/>
+    <node id="6379653746" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338342" lon="2.1863945"/>
+    <node id="6379653747" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338281" lon="2.1864439"/>
+    <node id="6379653752" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339329" lon="2.1864685"/>
+    <node id="6379653779" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339388" lon="2.1864195"/>
+    <node id="6379653721" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341787" lon="2.1861456"/>
+    <node id="6379653732" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338994" lon="2.1860788"/>
+    <node id="6379653737" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341737" lon="2.1861875"/>
+    <node id="6379653754" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341671" lon="2.1862427"/>
+    <node id="6379653765" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341036" lon="2.1862061"/>
+    <node id="6379653770" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341418" lon="2.1861578"/>
+    <node id="6379653773" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339688" lon="2.1861645"/>
+    <node id="6379653774" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341056" lon="2.1861578"/>
+    <node id="6379653777" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339796" lon="2.1861083"/>
+    <node id="6379654490" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340884" lon="2.1861933"/>
+    <node id="6379654492" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338874" lon="2.1861791"/>
+    <node id="6379654503" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340941" lon="2.1861544"/>
+    <node id="6379654507" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.434067" lon="2.1861881"/>
+    <node id="6379654508" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340166" lon="2.1862113"/>
+    <node id="6379654509" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339896" lon="2.1862046"/>
+    <node id="6379654510" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339355" lon="2.1860971"/>
+    <node id="6379654511" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.434061" lon="2.186224"/>
+    <node id="6379654512" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339306" lon="2.1861898"/>
+    <node id="6379654514" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.433928" lon="2.1861562"/>
+    <node id="6379654515" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341009" lon="2.1862335"/>
+    <node id="6379654516" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339635" lon="2.186198"/>
+    <node id="6379654523" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339348" lon="2.1861586"/>
+    <node id="6379654526" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339737" lon="2.1861675"/>
+    <node id="6379654536" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341663" lon="2.1862492"/>
+    <node id="6379654543" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341344" lon="2.1862135"/>
+    <node id="6379654547" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4341069" lon="2.1861507"/>
+    <node id="6379654494" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340552" lon="2.18614"/>
+    <node id="6379654495" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340481" lon="2.1861969"/>
+    <node id="6379654500" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340069" lon="2.1861884"/>
+    <node id="6379654535" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4340129" lon="2.1861311"/>
+    <node id="6379653716" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338824" lon="2.1861778"/>
+    <node id="6379653744" version="1" timestamp="2019-04-02T21:22:36Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339799" lon="2.1862854"/>
+    <node id="6379653762" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338703" lon="2.1862837"/>
+    <node id="6379654506" version="1" timestamp="2019-04-02T21:22:37Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4338991" lon="2.1862906"/>
+    <node id="6379654541" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339848" lon="2.186245"/>
+    <node id="6379654545" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339308" lon="2.1862622"/>
+    <node id="6379654548" version="1" timestamp="2019-04-02T21:22:38Z" uid="8079002" user="jqngarcia_import" changeset="68814314" lat="41.4339032" lon="2.1862562"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="6379653757"/>
+      <nd ref="6379654537"/>
+      <nd ref="6379654538"/>
+      <nd ref="6379653715"/>
+      <nd ref="6379653767"/>
+      <nd ref="6379654504"/>
+      <nd ref="6379654521"/>
+      <nd ref="6379653757"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="6379653758"/>
+      <nd ref="6379653771"/>
+      <nd ref="6379653772"/>
+      <nd ref="6379653769"/>
+      <nd ref="6379654502"/>
+      <nd ref="6379654499"/>
+      <nd ref="6379653784"/>
+      <nd ref="6379654524"/>
+      <nd ref="6379654518"/>
+      <nd ref="6379654528"/>
+      <nd ref="6379653738"/>
+      <nd ref="6379654529"/>
+      <nd ref="6379654530"/>
+      <nd ref="6379653758"/>
+      <tag k="building:levels" v="9"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="6379653752"/>
+      <nd ref="6379653726"/>
+      <nd ref="6379653747"/>
+      <nd ref="6379653706"/>
+      <nd ref="6379653746"/>
+      <nd ref="6379653779"/>
+      <nd ref="6379653752"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="6379653721"/>
+      <nd ref="6379653737"/>
+      <nd ref="6379653754"/>
+      <nd ref="6379654536"/>
+      <nd ref="6379654515"/>
+      <nd ref="6379653765"/>
+      <nd ref="6379654543"/>
+      <nd ref="6379653770"/>
+      <nd ref="6379654547"/>
+      <nd ref="6379653774"/>
+      <nd ref="6379654503"/>
+      <nd ref="6379654490"/>
+      <nd ref="6379654507"/>
+      <nd ref="6379654511"/>
+      <nd ref="6379654508"/>
+      <nd ref="6379654509"/>
+      <nd ref="6379654516"/>
+      <nd ref="6379653773"/>
+      <nd ref="6379654526"/>
+      <nd ref="6379653777"/>
+      <nd ref="6379654510"/>
+      <nd ref="6379654514"/>
+      <nd ref="6379654523"/>
+      <nd ref="6379654512"/>
+      <nd ref="6379654492"/>
+      <nd ref="6379653732"/>
+      <nd ref="6379653721"/>
+    </way>
+  </modify>
+  <create>
+    <way id="681262517" version="1" timestamp="2019-04-02T21:22:40Z" uid="8079002" user="jqngarcia_import" changeset="68814314">
+      <nd ref="6379654500"/>
+      <nd ref="6379654535"/>
+      <nd ref="6379654494"/>
+      <nd ref="6379654495"/>
+      <nd ref="6379654500"/>
+      <tag k="building:levels" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </create>
+  <modify>
+    <way id="-6">
+      <nd ref="6379653716"/>
+      <nd ref="6379654492"/>
+      <nd ref="6379654512"/>
+      <nd ref="6379654516"/>
+      <nd ref="6379654509"/>
+      <nd ref="6379654541"/>
+      <nd ref="6379653744"/>
+      <nd ref="6379654537"/>
+      <nd ref="6379653757"/>
+      <nd ref="6379654545"/>
+      <nd ref="6379654548"/>
+      <nd ref="6379654506"/>
+      <nd ref="6379653762"/>
+      <nd ref="6379653716"/>
+      <tag k="building:levels" v="7"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <relation id="-5">
+      <member type="way" ref="-4" role="outer"/>
+      <member type="way" ref="681262517" role="inner"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:part" v="yes"/>
+      <tag k="type" v="multipolygon"/>
+    </relation>
+  </modify>
+</osmChange>

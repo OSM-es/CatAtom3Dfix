@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="8574442696" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4716894" lon="-3.8101061"/>
+    <node id="8574442697" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4717411" lon="-3.8099829"/>
+    <node id="8574442698" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4717012" lon="-3.8099515"/>
+    <node id="8574442699" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4716167" lon="-3.8100715"/>
+    <node id="8574442700" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4716333" lon="-3.8100319"/>
+    <node id="8574442702" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4716591" lon="-3.8100521"/>
+    <node id="8574442703" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.4716795" lon="-3.8101297"/>
+    <node id="8574442708" version="1" timestamp="2021-03-30T09:03:50Z" uid="2904" user="Emilio Gomez" changeset="101969909" lat="43.471644" lon="-3.8100931"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="8574442696"/>
+      <nd ref="8574442697"/>
+      <nd ref="8574442698"/>
+      <nd ref="8574442702"/>
+      <nd ref="8574442700"/>
+      <nd ref="8574442699"/>
+      <nd ref="8574442708"/>
+      <nd ref="8574442703"/>
+      <nd ref="8574442696"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="5864106803" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8102205" lon="0.7058706"/>
+    <node id="5864106812" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8101937" lon="0.7058989"/>
+    <node id="5864106813" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8101712" lon="0.7058618"/>
+    <node id="5864106846" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.810198" lon="0.7058335"/>
+    <node id="5864106817" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.810502" lon="0.706343"/>
+    <node id="5864106841" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105369" lon="0.7063063"/>
+    <node id="5864106848" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105028" lon="0.7063422"/>
+    <node id="5864106849" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8104667" lon="0.7062848"/>
+    <node id="5864106856" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105015" lon="0.7062482"/>
+    <node id="5864106804" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103931" lon="0.7060696"/>
+    <node id="5864106836" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103774" lon="0.7062861"/>
+    <node id="5864106850" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103504" lon="0.7061144"/>
+    <node id="5864106851" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8104673" lon="0.7061916"/>
+    <node id="5864106853" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103032" lon="0.7061641"/>
+    <node id="5864106864" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103342" lon="0.7062151">
+      <tag k="addr:housenumber" v="22"/>
+      <tag k="addr:postcode" v="43895"/>
+      <tag k="addr:street" v="Carrer Eudald Pedrola I Millan"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="5864106816" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8104014" lon="0.706139"/>
+    <node id="5864106821" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103784" lon="0.706163"/>
+    <node id="5864106833" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8104176" lon="0.7061657"/>
+    <node id="5864106861" version="1" timestamp="2018-08-28T18:58:35Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8103946" lon="0.7061897"/>
+    <node id="5864106806" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8101622" lon="0.7059318"/>
+    <node id="5864106819" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8102286" lon="0.7058621"/>
+    <node id="5864106824" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.810246" lon="0.7059424"/>
+    <node id="5864106826" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8101828" lon="0.7059656">
+      <tag k="addr:housenumber" v="30"/>
+      <tag k="addr:postcode" v="43895"/>
+      <tag k="addr:street" v="Carrer Eudald Pedrola I Millan"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="5864106829" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8102418" lon="0.7058833"/>
+    <node id="5864106834" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8101988" lon="0.7059921"/>
+    <node id="5864106839" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8102218" lon="0.705905"/>
+    <node id="5864106801" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105055" lon="0.706387"/>
+    <node id="5864106807" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105444" lon="0.7064079"/>
+    <node id="5864106808" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105256" lon="0.7064276"/>
+    <node id="5864106809" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105214" lon="0.7063702"/>
+    <node id="5864106810" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105205" lon="0.7063713"/>
+    <node id="5864106828" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105027" lon="0.7063899"/>
+    <node id="5864106842" version="1" timestamp="2018-08-28T18:58:34Z" uid="1897806" user="javirg" changeset="62081620" lat="40.8105369" lon="0.7064158"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="5864106803"/>
+      <nd ref="5864106812"/>
+      <nd ref="5864106813"/>
+      <nd ref="5864106846"/>
+      <nd ref="5864106803"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="5864106849"/>
+      <nd ref="5864106856"/>
+      <nd ref="5864106841"/>
+      <nd ref="5864106848"/>
+      <nd ref="5864106817"/>
+      <nd ref="5864106849"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+  <create>
+    <way id="620691514" version="1" timestamp="2018-08-28T18:58:36Z" uid="1897806" user="javirg" changeset="62081620">
+      <nd ref="5864106851"/>
+      <nd ref="5864106836"/>
+      <nd ref="5864106864"/>
+      <nd ref="5864106853"/>
+      <nd ref="5864106850"/>
+      <nd ref="5864106804"/>
+      <nd ref="5864106851"/>
+      <tag k="building" v="residential"/>
+      <tag k="building:levels" v="6"/>
+    </way>
+    <way id="620691515" version="1" timestamp="2018-08-28T18:58:36Z" uid="1897806" user="javirg" changeset="62081620">
+      <nd ref="5864106816"/>
+      <nd ref="5864106833"/>
+      <nd ref="5864106861"/>
+      <nd ref="5864106821"/>
+      <nd ref="5864106816"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </create>
+  <modify>
+    <way id="-4">
+      <nd ref="5864106824"/>
+      <nd ref="5864106834"/>
+      <nd ref="5864106826"/>
+      <nd ref="5864106806"/>
+      <nd ref="5864106812"/>
+      <nd ref="5864106803"/>
+      <nd ref="5864106819"/>
+      <nd ref="5864106829"/>
+      <nd ref="5864106839"/>
+      <nd ref="5864106824"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-5">
+      <nd ref="5864106810"/>
+      <nd ref="5864106809"/>
+      <nd ref="5864106807"/>
+      <nd ref="5864106842"/>
+      <nd ref="5864106808"/>
+      <nd ref="5864106828"/>
+      <nd ref="5864106801"/>
+      <nd ref="5864106810"/>
+      <tag k="building:levels" v="7"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <relation id="-3">
+      <member type="way" ref="620691514" role="outer"/>
+      <member type="way" ref="620691515" role="inner"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:part" v="yes"/>
+      <tag k="type" v="multipolygon"/>
+    </relation>
+  </modify>
+</osmChange>

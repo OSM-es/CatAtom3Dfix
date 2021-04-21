@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="5976356647" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7606194" lon="0.6496507"/>
+    <node id="5976356649" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7606916" lon="0.6495955"/>
+    <node id="5976356652" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.76072" lon="0.6496648"/>
+    <node id="5976356654" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7606594" lon="0.6496201"/>
+    <node id="5976356661" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7606917" lon="0.6497064"/>
+    <node id="5976356665" version="1" timestamp="2018-10-11T19:36:22Z" uid="1897806" user="javirg" changeset="63432175" lat="40.760655" lon="0.6497346"/>
+    <node id="5976356677" version="1" timestamp="2018-10-11T19:36:22Z" uid="1897806" user="javirg" changeset="63432175" lat="40.760686" lon="0.6496897"/>
+    <node id="5976356646" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7605208" lon="0.6496556"/>
+    <node id="5976356651" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7605799" lon="0.6497908"/>
+    <node id="5976356657" version="1" timestamp="2018-10-11T19:36:21Z" uid="1897806" user="javirg" changeset="63432175" lat="40.760571" lon="0.6495792"/>
+    <node id="5976356664" version="1" timestamp="2018-10-11T19:36:22Z" uid="1897806" user="javirg" changeset="63432175" lat="40.760546" lon="0.6495963"/>
+    <node id="5976356681" version="1" timestamp="2018-10-11T19:36:22Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7605592" lon="0.6496261"/>
+    <node id="5976358387" version="1" timestamp="2018-10-11T19:36:22Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7606148" lon="0.6497644">
+      <tag k="addr:housenumber" v="81"/>
+      <tag k="addr:postcode" v="43894"/>
+      <tag k="addr:street" v="Carrer de Sant Joan"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="5976358388" version="1" timestamp="2018-10-11T19:36:22Z" uid="1897806" user="javirg" changeset="63432175" lat="40.7606404" lon="0.6497451"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="5976356654"/>
+      <nd ref="5976356649"/>
+      <nd ref="5976356652"/>
+      <nd ref="5976356677"/>
+      <nd ref="5976356661"/>
+      <nd ref="5976356665"/>
+      <nd ref="5976356647"/>
+      <nd ref="5976356654"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="5976356657"/>
+      <nd ref="5976358388"/>
+      <nd ref="5976358387"/>
+      <nd ref="5976356651"/>
+      <nd ref="5976356646"/>
+      <nd ref="5976356681"/>
+      <nd ref="5976356664"/>
+      <nd ref="5976356657"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

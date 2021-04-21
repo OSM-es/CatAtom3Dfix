@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <modify>
+    <way id="-1">
+      <nd ref="6994503026"/>
+      <nd ref="6994503013"/>
+      <nd ref="6994503029"/>
+      <nd ref="6994503040"/>
+      <nd ref="6994503012"/>
+      <nd ref="6994500468"/>
+      <nd ref="6994503018"/>
+      <nd ref="6994503010"/>
+      <nd ref="6994500476"/>
+      <nd ref="6994503143"/>
+      <nd ref="6994503014"/>
+      <nd ref="6994503026"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="6994503018"/>
+      <nd ref="6994500468"/>
+      <nd ref="6994500458"/>
+      <nd ref="254902263"/>
+      <nd ref="6994503174"/>
+      <nd ref="6994503008"/>
+      <nd ref="6994503018"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="6994503147"/>
+      <nd ref="6994503171"/>
+      <nd ref="6994503107"/>
+      <nd ref="6994503103"/>
+      <nd ref="6994503096"/>
+      <nd ref="6994503132"/>
+      <nd ref="6994503144"/>
+      <nd ref="6994503147"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="6994503113"/>
+      <nd ref="6994503117"/>
+      <nd ref="6994503097"/>
+      <nd ref="6994503080"/>
+      <nd ref="6994503142"/>
+      <nd ref="6994503092"/>
+      <nd ref="6994503113"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-5">
+      <nd ref="6994503161"/>
+      <nd ref="6994503164"/>
+      <nd ref="6994503035"/>
+      <nd ref="6994503052"/>
+      <nd ref="6994503137"/>
+      <nd ref="6994503056"/>
+      <nd ref="6994503166"/>
+      <nd ref="6994503161"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-6">
+      <nd ref="6994503005"/>
+      <nd ref="6994503109"/>
+      <nd ref="6994500463"/>
+      <nd ref="6994500442"/>
+      <nd ref="6994500464"/>
+      <nd ref="6994503044"/>
+      <nd ref="6994503149"/>
+      <nd ref="6994503005"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-7">
+      <nd ref="6994502998"/>
+      <nd ref="6994502988"/>
+      <nd ref="6994502992"/>
+      <nd ref="6994503141"/>
+      <nd ref="6994503131"/>
+      <nd ref="6994503133"/>
+      <nd ref="6994502987"/>
+      <nd ref="6994503007"/>
+      <nd ref="6994502998"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-8">
+      <nd ref="6994503087"/>
+      <nd ref="6994503119"/>
+      <nd ref="6994503001"/>
+      <nd ref="6994503155"/>
+      <nd ref="6994502994"/>
+      <nd ref="6994503151"/>
+      <nd ref="6994503082"/>
+      <nd ref="6994503180"/>
+      <nd ref="6994503136"/>
+      <nd ref="6994503129"/>
+      <nd ref="6994503110"/>
+      <nd ref="6994503087"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-9">
+      <nd ref="6994503082"/>
+      <nd ref="6994503151"/>
+      <nd ref="6994503015"/>
+      <nd ref="6994503163"/>
+      <nd ref="6994503169"/>
+      <nd ref="6994502995"/>
+      <nd ref="6994503071"/>
+      <nd ref="6994503076"/>
+      <nd ref="6994503069"/>
+      <nd ref="6994503158"/>
+      <nd ref="6994503125"/>
+      <nd ref="6994502990"/>
+      <nd ref="6994502986"/>
+      <nd ref="6994503160"/>
+      <nd ref="6994503130"/>
+      <nd ref="6994503049"/>
+      <nd ref="6994503159"/>
+      <nd ref="6994503118"/>
+      <nd ref="6994503105"/>
+      <nd ref="6994503170"/>
+      <nd ref="6994500477"/>
+      <nd ref="6994503134"/>
+      <nd ref="6994503082"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-10">
+      <nd ref="6994503097"/>
+      <nd ref="6994503117"/>
+      <nd ref="6994503083"/>
+      <nd ref="6994503120"/>
+      <nd ref="6994503150"/>
+      <nd ref="6994503033"/>
+      <nd ref="6994503068"/>
+      <nd ref="6994503070"/>
+      <nd ref="6994503097"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-11">
+      <nd ref="6994503100"/>
+      <nd ref="6994503060"/>
+      <nd ref="6994503054"/>
+      <nd ref="6994503146"/>
+      <nd ref="6994503116"/>
+      <nd ref="6994503165"/>
+      <nd ref="6994502985"/>
+      <nd ref="6994503062"/>
+      <nd ref="6994503101"/>
+      <nd ref="6994503100"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-12">
+      <nd ref="6994503017"/>
+      <nd ref="6994500479"/>
+      <nd ref="6994503006"/>
+      <nd ref="6994503123"/>
+      <nd ref="6994503135"/>
+      <nd ref="6994503045"/>
+      <nd ref="6994503073"/>
+      <nd ref="6994503065"/>
+      <nd ref="6994503017"/>
+      <tag k="building:levels" v="7"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-13">
+      <nd ref="6994503062"/>
+      <nd ref="6994502985"/>
+      <nd ref="6994503063"/>
+      <nd ref="6994503066"/>
+      <nd ref="6994503090"/>
+      <nd ref="6994500481"/>
+      <nd ref="6994503022"/>
+      <nd ref="6994500483"/>
+      <nd ref="6994503184"/>
+      <nd ref="6994503093"/>
+      <nd ref="6994503055"/>
+      <nd ref="6994503058"/>
+      <nd ref="6994503057"/>
+      <nd ref="6994503062"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

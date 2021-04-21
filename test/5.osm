@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='5994936418' timestamp='2018-10-18T08:38:17Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.438041' lon='-16.3112132'>
+    <tag k='entrance' v='yes' />
+    <tag k='motor_vehicle' v='designated' />
+  </node>
+  <node id='5994936438' timestamp='2018-10-18T08:38:18Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381155' lon='-16.31111' />
+  <node id='5994936458' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381278' lon='-16.3111674' />
+  <node id='5994936462' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381206' lon='-16.3111412' />
+  <node id='5994936466' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381024' lon='-16.3111764' />
+  <node id='5994936469' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381613' lon='-16.3111761' />
+  <node id='5994936472' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4380952' lon='-16.3111502' />
+  <node id='5994936478' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381444' lon='-16.3111515' />
+  <node id='5994936499' timestamp='2018-10-18T08:38:19Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4381734' lon='-16.3111938' />
+  <node id='5994936559' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4380486' lon='-16.311235' />
+  <node id='5994936562' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4380312' lon='-16.3111847'>
+    <tag k='addr:housenumber' v='4' />
+    <tag k='addr:postcode' v='38107' />
+    <tag k='addr:street' v='Calle Trepadora' />
+    <tag k='entrance' v='yes' />
+  </node>
+  <node id='5994936563' timestamp='2018-10-18T08:38:20Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408' lat='28.4380178' lon='-16.3111458' />
+  <way id='635546283' timestamp='2018-10-18T08:38:22Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <nd ref='5994936458' />
+    <nd ref='5994936462' />
+    <nd ref='5994936472' />
+    <nd ref='5994936466' />
+    <nd ref='5994936458' />
+    <tag k='building:levels' v='1' />
+    <tag k='building:part' v='yes' />
+  </way>
+  <way id='635546291' timestamp='2018-10-18T08:38:23Z' uid='7553248' user='Javier Sanchez (imports)' visible='true' version='1' changeset='63636408'>
+    <nd ref='5994936499' />
+    <nd ref='5994936469' />
+    <nd ref='5994936478' />
+    <nd ref='5994936438' />
+    <nd ref='5994936563' />
+    <nd ref='5994936562' />
+    <nd ref='5994936418' />
+    <nd ref='5994936559' />
+    <nd ref='5994936499' />
+    <tag k='building' v='house' />
+    <tag k='building:levels' v='2' />
+  </way>
+</osm>

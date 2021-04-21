@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <modify>
+    <node id="975337482" version="4" timestamp="2018-03-23T19:53:13Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390627" lon="-5.6859612">
+      <tag k="addr:city" v="Gijon/Xixon"/>
+      <tag k="addr:country" v="ES"/>
+      <tag k="addr:housenumber" v="1"/>
+      <tag k="addr:postcode" v="33212"/>
+      <tag k="addr:street" v="Calle Zaragoza"/>
+    </node>
+  </modify>
+  <create>
+    <node id="5499658959" version="1" timestamp="2018-03-23T19:53:08Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390065" lon="-5.6860904"/>
+    <node id="5499658989" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5389985" lon="-5.6860878"/>
+    <node id="5499658995" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390707" lon="-5.6860546"/>
+    <node id="5499659005" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390344" lon="-5.6860994"/>
+    <node id="5499659020" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390889" lon="-5.6860523"/>
+    <node id="5499659321" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390509" lon="-5.6860598"/>
+    <node id="5499659352" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390857" lon="-5.6859601"/>
+    <node id="5499659354" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5389921" lon="-5.6860858"/>
+    <node id="5499659364" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390325" lon="-5.6859625"/>
+    <node id="5499658960" version="1" timestamp="2018-03-23T19:53:08Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394115" lon="-5.6862962"/>
+    <node id="5499658963" version="1" timestamp="2018-03-23T19:53:08Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394095" lon="-5.6862752"/>
+    <node id="5499658982" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394061" lon="-5.6862726"/>
+    <node id="5499658987" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539373" lon="-5.6863991"/>
+    <node id="5499658992" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539345" lon="-5.6864252"/>
+    <node id="5499658997" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392671" lon="-5.6862807"/>
+    <node id="5499658998" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392294" lon="-5.6863677"/>
+    <node id="5499659000" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393665" lon="-5.686243"/>
+    <node id="5499659002" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392808" lon="-5.6863579"/>
+    <node id="5499659004" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392466" lon="-5.6863955"/>
+    <node id="5499659007" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392568" lon="-5.6863045"/>
+    <node id="5499659008" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393851" lon="-5.6863367"/>
+    <node id="5499659014" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392852" lon="-5.686283"/>
+    <node id="5499659324" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393482" lon="-5.6864272"/>
+    <node id="5499659327" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393325" lon="-5.686416"/>
+    <node id="5499659331" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393662" lon="-5.686416"/>
+    <node id="5499659334" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539365" lon="-5.6863877"/>
+    <node id="5499659335" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392971" lon="-5.6862918"/>
+    <node id="5499659338" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539346" lon="-5.6862952"/>
+    <node id="5499659339" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393286" lon="-5.6862822"/>
+    <node id="5499659343" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539363" lon="-5.6864219"/>
+    <node id="5499659345" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392361" lon="-5.6863732"/>
+    <node id="5499659347" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393586" lon="-5.6864259"/>
+    <node id="5499659348" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392932" lon="-5.6863016"/>
+    <node id="5499659349" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393535" lon="-5.6864278"/>
+    <node id="5499659353" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393798" lon="-5.6863502"/>
+    <node id="5499659355" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392782" lon="-5.6863648"/>
+    <node id="5499659358" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393253" lon="-5.6862905"/>
+    <node id="5499659359" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393632" lon="-5.6862516"/>
+    <node id="5499659361" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539356" lon="-5.6862464"/>
+    <node id="5499659362" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539251" lon="-5.6863847"/>
+    <node id="5499659366" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392581" lon="-5.68639"/>
+    <node id="5499659369" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393981" lon="-5.6863039"/>
+    <node id="5499659370" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393931" lon="-5.6863426"/>
+    <node id="5499659371" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393496" lon="-5.6862627"/>
+    <node id="5499659372" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393567" lon="-5.6862679"/>
+    <node id="5499659373" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392317" lon="-5.686384"/>
+    <node id="5499659374" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394061" lon="-5.6863099"/>
+    <node id="5499659376" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392735" lon="-5.6863522"/>
+    <node id="5499659378" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393877" lon="-5.6863562"/>
+    <node id="5499659379" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394035" lon="-5.6862903"/>
+    <node id="5499659382" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393145" lon="-5.6863175"/>
+    <node id="5499659385" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393337" lon="-5.6864073"/>
+    <node id="5499659387" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392817" lon="-5.6862916"/>
+    <node id="5499658964" version="1" timestamp="2018-03-23T19:53:08Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393666" lon="-5.6860578"/>
+    <node id="5499658969" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393654" lon="-5.6862422"/>
+    <node id="5499658970" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393734" lon="-5.6859668"/>
+    <node id="5499658973" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5395196" lon="-5.6859583"/>
+    <node id="5499658980" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394294" lon="-5.6860803"/>
+    <node id="5499658991" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394266" lon="-5.6860537"/>
+    <node id="5499658994" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393675" lon="-5.6860465"/>
+    <node id="5499659016" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5395271" lon="-5.6859757"/>
+    <node id="5499659017" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5393728" lon="-5.6859747"/>
+    <node id="5499659351" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394286" lon="-5.6860727"/>
+    <node id="5499659363" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394284" lon="-5.6860493"/>
+    <node id="5499659365" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394426" lon="-5.68606"/>
+    <node id="5499659375" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394256" lon="-5.6860442"/>
+    <node id="5499659383" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5394355" lon="-5.686078"/>
+  </create>
+  <modify>
+    <node id="975311742" version="5" timestamp="2018-03-23T19:53:13Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539139" lon="-5.6863126">
+      <tag k="addr:city" v="Gijon/Xixon"/>
+      <tag k="addr:country" v="ES"/>
+      <tag k="addr:housenumber" v="4"/>
+      <tag k="addr:postcode" v="33212"/>
+      <tag k="addr:street" v="Calle El Cortijo"/>
+    </node>
+  </modify>
+  <create>
+    <node id="5499658967" version="1" timestamp="2018-03-23T19:53:08Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5391678" lon="-5.6862199"/>
+    <node id="5499658978" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392396" lon="-5.6862911"/>
+    <node id="5499658984" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5389968" lon="-5.6861587"/>
+    <node id="5499658986" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392247" lon="-5.686378"/>
+    <node id="5499658988" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.538983" lon="-5.6861482"/>
+    <node id="5499658996" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539084" lon="-5.6861724"/>
+    <node id="5499658999" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392349" lon="-5.686302"/>
+    <node id="5499659326" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5391579" lon="-5.6862428"/>
+    <node id="5499659329" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390581" lon="-5.6861097"/>
+    <node id="5499659341" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390969" lon="-5.6862675"/>
+    <node id="5499659344" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390776" lon="-5.6861873"/>
+    <node id="5499659346" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539095" lon="-5.6861814"/>
+    <node id="5499659350" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5391017" lon="-5.686166"/>
+    <node id="5499659368" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390384" lon="-5.6861553"/>
+    <node id="5499659377" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5390931" lon="-5.6862771"/>
+    <node id="5499659386" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5389867" lon="-5.6861837"/>
+    <node id="5499658968" version="1" timestamp="2018-03-23T19:53:08Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5391608" lon="-5.6860575"/>
+    <node id="5499658972" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392497" lon="-5.686053"/>
+    <node id="5499658977" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.539271" lon="-5.6860804"/>
+    <node id="5499659003" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5391573" lon="-5.685986"/>
+    <node id="5499659013" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392508" lon="-5.6860815"/>
+    <node id="5499659328" version="1" timestamp="2018-03-23T19:53:09Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392803" lon="-5.6860515"/>
+    <node id="5499659360" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392798" lon="-5.6860399"/>
+    <node id="5499659381" version="1" timestamp="2018-03-23T19:53:10Z" uid="1893271" user="ddsaimon" changeset="57468224" lat="43.5392695" lon="-5.6860402"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="5499659020"/>
+      <nd ref="5499659352"/>
+      <nd ref="975337482"/>
+      <nd ref="5499659364"/>
+      <nd ref="5499659354"/>
+      <nd ref="5499658989"/>
+      <nd ref="5499658959"/>
+      <nd ref="5499659005"/>
+      <nd ref="5499659321"/>
+      <nd ref="5499658995"/>
+      <nd ref="5499659020"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="5499659331"/>
+      <nd ref="5499658987"/>
+      <nd ref="5499659334"/>
+      <nd ref="5499659353"/>
+      <nd ref="5499659378"/>
+      <nd ref="5499659370"/>
+      <nd ref="5499659008"/>
+      <nd ref="5499659369"/>
+      <nd ref="5499659374"/>
+      <nd ref="5499658960"/>
+      <nd ref="5499659379"/>
+      <nd ref="5499658963"/>
+      <nd ref="5499658982"/>
+      <nd ref="5499659000"/>
+      <nd ref="5499659359"/>
+      <nd ref="5499659361"/>
+      <nd ref="5499659371"/>
+      <nd ref="5499659372"/>
+      <nd ref="5499659338"/>
+      <nd ref="5499659339"/>
+      <nd ref="5499659358"/>
+      <nd ref="5499659382"/>
+      <nd ref="5499659348"/>
+      <nd ref="5499659335"/>
+      <nd ref="5499659014"/>
+      <nd ref="5499659387"/>
+      <nd ref="5499658997"/>
+      <nd ref="5499659007"/>
+      <nd ref="5499658998"/>
+      <nd ref="5499659345"/>
+      <nd ref="5499659373"/>
+      <nd ref="5499659004"/>
+      <nd ref="5499659362"/>
+      <nd ref="5499659366"/>
+      <nd ref="5499659376"/>
+      <nd ref="5499659002"/>
+      <nd ref="5499659355"/>
+      <nd ref="5499659385"/>
+      <nd ref="5499659327"/>
+      <nd ref="5499658992"/>
+      <nd ref="5499659324"/>
+      <nd ref="5499659349"/>
+      <nd ref="5499659347"/>
+      <nd ref="5499659343"/>
+      <nd ref="5499659331"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="5499659017"/>
+      <nd ref="5499658994"/>
+      <nd ref="5499658964"/>
+      <nd ref="5499659375"/>
+      <nd ref="5499658991"/>
+      <nd ref="5499659363"/>
+      <nd ref="5499659365"/>
+      <nd ref="5499659383"/>
+      <nd ref="5499659351"/>
+      <nd ref="5499658980"/>
+      <nd ref="5499658969"/>
+      <nd ref="5499659000"/>
+      <nd ref="5499658982"/>
+      <nd ref="5499659016"/>
+      <nd ref="5499658973"/>
+      <nd ref="5499658970"/>
+      <nd ref="5499659017"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="5499658986"/>
+      <nd ref="5499658998"/>
+      <nd ref="5499659007"/>
+      <nd ref="5499658978"/>
+      <nd ref="5499658999"/>
+      <nd ref="5499659326"/>
+      <nd ref="5499658967"/>
+      <nd ref="5499659350"/>
+      <nd ref="5499659346"/>
+      <nd ref="5499658996"/>
+      <nd ref="5499659344"/>
+      <nd ref="5499659368"/>
+      <nd ref="5499659329"/>
+      <nd ref="5499659005"/>
+      <nd ref="5499658959"/>
+      <nd ref="5499658988"/>
+      <nd ref="5499658984"/>
+      <nd ref="5499659386"/>
+      <nd ref="5499659341"/>
+      <nd ref="5499659377"/>
+      <nd ref="975311742"/>
+      <nd ref="5499658986"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-5">
+      <nd ref="5499659003"/>
+      <nd ref="5499658968"/>
+      <nd ref="5499658972"/>
+      <nd ref="5499659013"/>
+      <nd ref="5499658977"/>
+      <nd ref="5499659381"/>
+      <nd ref="5499659360"/>
+      <nd ref="5499659328"/>
+      <nd ref="5499658994"/>
+      <nd ref="5499659017"/>
+      <nd ref="5499659003"/>
+      <tag k="building:levels" v="5"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

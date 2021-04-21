@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="6817037439" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947607" lon="-0.5086476"/>
+    <node id="6817037459" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947724" lon="-0.508621"/>
+    <node id="6817037469" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947989" lon="-0.5086459"/>
+    <node id="6817053701" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947807" lon="-0.5086895"/>
+    <node id="6817053710" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947531" lon="-0.5086649"/>
+    <node id="6817053738" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194782" lon="-0.5086864"/>
+    <node id="6817053739" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947573" lon="-0.5086686"/>
+    <node id="6817037431" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947435" lon="-0.5085876"/>
+    <node id="6817037446" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1946635" lon="-0.5085239">
+      <tag k="addr:housenumber" v="10"/>
+      <tag k="addr:postcode" v="46250"/>
+      <tag k="addr:street" v="Carrer de Bonaire"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817037448" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947366" lon="-0.5085795"/>
+    <node id="6817037463" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947212" lon="-0.5086332"/>
+    <node id="6817037470" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1946475" lon="-0.5085572"/>
+    <node id="6817053708" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947166" lon="-0.5086286"/>
+    <node id="6817053713" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1946724" lon="-0.5085055"/>
+    <node id="6817037453" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948943" lon="-0.5083514"/>
+    <node id="6817053703" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194869" lon="-0.5083299"/>
+    <node id="6817053707" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194869" lon="-0.5083932"/>
+    <node id="6817053748" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948466" lon="-0.5083752"/>
+    <node id="6817037408" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947229" lon="-0.5087784">
+      <tag k="addr:housenumber" v="6"/>
+      <tag k="addr:postcode" v="46250"/>
+      <tag k="addr:street" v="Plaça de Lope de Vega"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817037420" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947375" lon="-0.5087928"/>
+    <node id="6817037456" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947124" lon="-0.5087681"/>
+    <node id="6817053704" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947598" lon="-0.5087395"/>
+    <node id="6817053705" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947396" lon="-0.5087193"/>
+    <node id="6817037422" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948275" lon="-0.5085005"/>
+    <node id="6817037429" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194807" lon="-0.5085504"/>
+    <node id="6817037444" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948827" lon="-0.5086015"/>
+    <node id="6817037447" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948281" lon="-0.5085759"/>
+    <node id="6817037454" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948955" lon="-0.5085738"/>
+    <node id="6817037474" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948497" lon="-0.5086025"/>
+    <node id="6817053693" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948649" lon="-0.5085392"/>
+    <node id="6817053702" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948709" lon="-0.5086287"/>
+    <node id="6817053746" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948644" lon="-0.5085405"/>
+    <node id="6817037405" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949366" lon="-0.5083301">
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817037423" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948403" lon="-0.5084604"/>
+    <node id="6817037441" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949271" lon="-0.5085128"/>
+    <node id="6817037449" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948444" lon="-0.5084493"/>
+    <node id="6817037477" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948798" lon="-0.5085025"/>
+    <node id="6817037478" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949699" lon="-0.5083743">
+      <tag k="addr:housenumber" v="7"/>
+      <tag k="addr:postcode" v="46250"/>
+      <tag k="addr:street" v="Plaça de Cervantes"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817053685" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948289" lon="-0.5084912"/>
+    <node id="6817053687" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948842" lon="-0.5084823"/>
+    <node id="6817053691" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949462" lon="-0.5084787"/>
+    <node id="6817053692" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949213" lon="-0.5083071"/>
+    <node id="6817053706" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949545" lon="-0.5084831"/>
+    <node id="6817053717" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194842" lon="-0.5084849"/>
+    <node id="6817053719" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194831" lon="-0.5084919"/>
+    <node id="6817053724" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948415" lon="-0.5084573"/>
+    <node id="6817053730" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1950035" lon="-0.5084209"/>
+    <node id="6817053733" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949579" lon="-0.5084793"/>
+    <node id="6817053747" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948551" lon="-0.5084588"/>
+    <node id="6817053751" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948394" lon="-0.508495"/>
+    <node id="6817037435" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948108" lon="-0.5086174"/>
+    <node id="6817037438" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194804" lon="-0.5086339"/>
+    <node id="6817037476" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947853" lon="-0.5085916"/>
+    <node id="6817037411" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949778" lon="-0.5086276">
+      <tag k="entrance" v="yes"/>
+      <tag k="motor_vehicle" v="yes"/>
+    </node>
+    <node id="6817037412" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1950243" lon="-0.5084499">
+      <tag k="entrance" v="yes"/>
+      <tag k="motor_vehicle" v="yes"/>
+    </node>
+    <node id="6817037413" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1950132" lon="-0.5084345">
+      <tag k="addr:housenumber" v="8"/>
+      <tag k="addr:postcode" v="46250"/>
+      <tag k="addr:street" v="Plaça de Cervantes"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817037465" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948973" lon="-0.5085704"/>
+    <node id="6817053732" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949125" lon="-0.5086178"/>
+    <node id="6817053741" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949589" lon="-0.5086871"/>
+    <node id="6817053744" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1950322" lon="-0.5084604"/>
+    <node id="6817053749" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949234" lon="-0.5085865"/>
+    <node id="6817037430" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948048" lon="-0.5087778"/>
+    <node id="6817037437" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948374" lon="-0.5087384"/>
+    <node id="6817037443" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947653" lon="-0.5087442"/>
+    <node id="6817037466" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947983" lon="-0.5087722"/>
+    <node id="6817053718" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948205" lon="-0.5087382"/>
+    <node id="6817053723" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948325" lon="-0.5087482"/>
+    <node id="6817037428" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194898" lon="-0.5087153"/>
+    <node id="6817037436" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948937" lon="-0.5087116"/>
+    <node id="6817053686" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948698" lon="-0.5086909"/>
+    <node id="6817053700" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948588" lon="-0.5086814"/>
+    <node id="6817053735" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1949118" lon="-0.5086891"/>
+    <node id="6817053750" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948707" lon="-0.5086579"/>
+    <node id="6817037433" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947841" lon="-0.5088064"/>
+    <node id="6817037452" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947896" lon="-0.508793"/>
+    <node id="6817053720" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947522" lon="-0.5087766"/>
+    <node id="6817037427" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947466" lon="-0.5086859"/>
+    <node id="6817037467" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.194731" lon="-0.5087109"/>
+    <node id="6817037484" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947215" lon="-0.5086613"/>
+    <node id="6817053694" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947048" lon="-0.5086846"/>
+    <node id="6817053697" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1946248" lon="-0.5086048"/>
+    <node id="6817053727" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947061" lon="-0.5086464"/>
+    <node id="6817053728" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1946329" lon="-0.5085878">
+      <tag k="addr:housenumber" v="12"/>
+      <tag k="addr:postcode" v="46250"/>
+      <tag k="addr:street" v="Carrer de Bonaire"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817037407" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947564" lon="-0.508327">
+      <tag k="addr:housenumber" v="6"/>
+      <tag k="addr:postcode" v="46250"/>
+      <tag k="addr:street" v="Carrer de Bonaire"/>
+      <tag k="entrance" v="yes"/>
+    </node>
+    <node id="6817037424" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947511" lon="-0.508339"/>
+    <node id="6817037451" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948042" lon="-0.5083561"/>
+    <node id="6817037455" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948293" lon="-0.5084215"/>
+    <node id="6817037462" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948358" lon="-0.508407"/>
+    <node id="6817037468" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948092" lon="-0.5083452"/>
+    <node id="6817037471" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948008" lon="-0.5083384"/>
+    <node id="6817037475" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948463" lon="-0.5083898"/>
+    <node id="6817037482" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1947646" lon="-0.5083094"/>
+    <node id="6817053737" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948311" lon="-0.5084229"/>
+    <node id="6817053721" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948456" lon="-0.5087458"/>
+    <node id="6817053722" version="1" timestamp="2019-09-23T09:33:02Z" uid="10063912" user="editemapes_imports" changeset="74796829" lat="39.1948629" lon="-0.5087039"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="6817053701"/>
+      <nd ref="6817053738"/>
+      <nd ref="6817037469"/>
+      <nd ref="6817037459"/>
+      <nd ref="6817037439"/>
+      <nd ref="6817053710"/>
+      <nd ref="6817053739"/>
+      <nd ref="6817053701"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="6817037431"/>
+      <nd ref="6817037448"/>
+      <nd ref="6817053713"/>
+      <nd ref="6817037446"/>
+      <nd ref="6817037470"/>
+      <nd ref="6817053708"/>
+      <nd ref="6817037463"/>
+      <nd ref="6817037431"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="6817053707"/>
+      <nd ref="6817037453"/>
+      <nd ref="6817053703"/>
+      <nd ref="6817053748"/>
+      <nd ref="6817053707"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="6817037420"/>
+      <nd ref="6817053704"/>
+      <nd ref="6817053705"/>
+      <nd ref="6817037456"/>
+      <nd ref="6817037408"/>
+      <nd ref="6817037420"/>
+      <tag k="building:levels" v="4"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-5">
+      <nd ref="6817037474"/>
+      <nd ref="6817053702"/>
+      <nd ref="6817037444"/>
+      <nd ref="6817037454"/>
+      <nd ref="6817053746"/>
+      <nd ref="6817053693"/>
+      <nd ref="6817037422"/>
+      <nd ref="6817037429"/>
+      <nd ref="6817037447"/>
+      <nd ref="6817037474"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-6">
+      <nd ref="6817037477"/>
+      <nd ref="6817053687"/>
+      <nd ref="6817037441"/>
+      <nd ref="6817053691"/>
+      <nd ref="6817053706"/>
+      <nd ref="6817053733"/>
+      <nd ref="6817053730"/>
+      <nd ref="6817037478"/>
+      <nd ref="6817037405"/>
+      <nd ref="6817053692"/>
+      <nd ref="6817037453"/>
+      <nd ref="6817053707"/>
+      <nd ref="6817053747"/>
+      <nd ref="6817037449"/>
+      <nd ref="6817053724"/>
+      <nd ref="6817037423"/>
+      <nd ref="6817053685"/>
+      <nd ref="6817053719"/>
+      <nd ref="6817053751"/>
+      <nd ref="6817053717"/>
+      <nd ref="6817037477"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-7">
+      <nd ref="6817037476"/>
+      <nd ref="6817037459"/>
+      <nd ref="6817037469"/>
+      <nd ref="6817037438"/>
+      <nd ref="6817037435"/>
+      <nd ref="6817037476"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-8">
+      <nd ref="6817053702"/>
+      <nd ref="6817053741"/>
+      <nd ref="6817037411"/>
+      <nd ref="6817053744"/>
+      <nd ref="6817037412"/>
+      <nd ref="6817037413"/>
+      <nd ref="6817053730"/>
+      <nd ref="6817053733"/>
+      <nd ref="6817053706"/>
+      <nd ref="6817053691"/>
+      <nd ref="6817037441"/>
+      <nd ref="6817037465"/>
+      <nd ref="6817053749"/>
+      <nd ref="6817053732"/>
+      <nd ref="6817037444"/>
+      <nd ref="6817053702"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-9">
+      <nd ref="6817037437"/>
+      <nd ref="6817053738"/>
+      <nd ref="6817053701"/>
+      <nd ref="6817053704"/>
+      <nd ref="6817037443"/>
+      <nd ref="6817037466"/>
+      <nd ref="6817037430"/>
+      <nd ref="6817053718"/>
+      <nd ref="6817053723"/>
+      <nd ref="6817037437"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-10">
+      <nd ref="6817053700"/>
+      <nd ref="6817053686"/>
+      <nd ref="6817037436"/>
+      <nd ref="6817037428"/>
+      <nd ref="6817053735"/>
+      <nd ref="6817053750"/>
+      <nd ref="6817053700"/>
+      <tag k="building:levels" v="4"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-11">
+      <nd ref="6817037466"/>
+      <nd ref="6817037443"/>
+      <nd ref="6817053720"/>
+      <nd ref="6817037433"/>
+      <nd ref="6817037452"/>
+      <nd ref="6817037466"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-12">
+      <nd ref="6817053704"/>
+      <nd ref="6817053701"/>
+      <nd ref="6817053739"/>
+      <nd ref="6817037427"/>
+      <nd ref="6817037467"/>
+      <nd ref="6817053705"/>
+      <nd ref="6817053704"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-13">
+      <nd ref="6817053708"/>
+      <nd ref="6817037470"/>
+      <nd ref="6817053728"/>
+      <nd ref="6817053697"/>
+      <nd ref="6817053694"/>
+      <nd ref="6817037484"/>
+      <nd ref="6817053727"/>
+      <nd ref="6817053708"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-14">
+      <nd ref="6817037475"/>
+      <nd ref="6817037451"/>
+      <nd ref="6817037468"/>
+      <nd ref="6817037471"/>
+      <nd ref="6817037482"/>
+      <nd ref="6817037407"/>
+      <nd ref="6817037424"/>
+      <nd ref="6817037462"/>
+      <nd ref="6817037455"/>
+      <nd ref="6817053737"/>
+      <nd ref="6817037475"/>
+      <tag k="building:levels" v="4"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-15">
+      <nd ref="6817037438"/>
+      <nd ref="6817037469"/>
+      <nd ref="6817053738"/>
+      <nd ref="6817037437"/>
+      <nd ref="6817053721"/>
+      <nd ref="6817053722"/>
+      <nd ref="6817053686"/>
+      <nd ref="6817053700"/>
+      <nd ref="6817037438"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

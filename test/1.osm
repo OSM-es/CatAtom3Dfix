@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6'>
+  <node id='8570852096' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087891' lon='-16.4118257' />
+  <node id='8570852097' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087802' lon='-16.4118251' />
+  <node id='8570852098' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087782' lon='-16.4119457'>
+    <tag k='addr:housenumber' v='11' />
+    <tag k='addr:postcode' v='38500' />
+    <tag k='addr:street' v='Calle Lomo Grande Abajo' />
+    <tag k='entrance' v='yes' />
+  </node>
+  <node id='8570852113' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087785' lon='-16.4119334' />
+  <node id='8570873320' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087935' lon='-16.4117682' />
+  <node id='8570873327' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3088578' lon='-16.4119541' />
+  <node id='8570873331' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087778' lon='-16.4119611' />
+  <node id='8570873338' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3088405' lon='-16.4118624' />
+  <node id='8570873363' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3088508' lon='-16.4119548' />
+  <node id='8570873364' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3088621' lon='-16.4118628' />
+  <node id='8570873379' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3088512' lon='-16.4119359' />
+  <node id='8570873402' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3087799' lon='-16.4118613' />
+  <node id='8570873409' timestamp='2021-03-29T08:00:38Z' version='1' lat='28.3088492' lon='-16.411778' />
+  <way id='556284447' timestamp='2021-03-29T08:00:38Z' version='2'>
+    <nd ref='8570873363' />
+    <nd ref='8570873327' />
+    <nd ref='8570873364' />
+    <nd ref='8570873338' />
+    <nd ref='8570873402' />
+    <nd ref='8570852113' />
+    <nd ref='8570852098' />
+    <nd ref='8570873331' />
+    <nd ref='8570873363' />
+    <tag k='building' v='house' />
+    <tag k='building:levels' v='2' />
+    <tag k='building:levels:underground' v='1' />
+  </way>
+  <way id='923285826' timestamp='2021-03-29T08:00:38Z' version='1'>
+    <nd ref='8570873338' />
+    <nd ref='8570873409' />
+    <nd ref='8570873320' />
+    <nd ref='8570852096' />
+    <nd ref='8570852097' />
+    <nd ref='8570873402' />
+    <nd ref='8570873338' />
+    <tag k='building' v='yes' />
+    <tag k='building:levels' v='1' />
+    <tag k='disused:building' v='residential' />
+  </way>
+  <way id='923285841' timestamp='2021-03-29T08:00:38Z' version='1'>
+    <nd ref='8570873331' />
+    <nd ref='8570873363' />
+    <nd ref='8570873379' />
+    <nd ref='8570852113' />
+    <nd ref='8570852098' />
+    <nd ref='8570873331' />
+    <tag k='building:levels' v='2' />
+    <tag k='building:levels:underground' v='1' />
+    <tag k='building:part' v='yes' />
+  </way>
+  <way id='923285846' timestamp='2021-03-29T08:00:38Z' version='1'>
+    <nd ref='8570873327' />
+    <nd ref='8570873364' />
+    <nd ref='8570873338' />
+    <nd ref='8570873402' />
+    <nd ref='8570852113' />
+    <nd ref='8570873379' />
+    <nd ref='8570873363' />
+    <nd ref='8570873327' />
+    <tag k='building:levels' v='1' />
+    <tag k='building:levels:underground' v='1' />
+    <tag k='building:part' v='yes' />
+  </way>
+</osm>

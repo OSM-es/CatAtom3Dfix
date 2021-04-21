@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="7902262805" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5707437" lon="-0.337031"/>
+    <node id="7902262864" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.570772" lon="-0.3370174"/>
+    <node id="7902262879" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710215" lon="-0.3379973"/>
+    <node id="7902262907" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710497" lon="-0.3379841"/>
+    <node id="7902262819" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709084" lon="-0.3370124"/>
+    <node id="7902262878" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709162" lon="-0.3370397"/>
+    <node id="7902262896" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709736" lon="-0.336981"/>
+    <node id="7902262903" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709175" lon="-0.3370439"/>
+    <node id="7902262914" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709096" lon="-0.3370168"/>
+    <node id="7902262929" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709827" lon="-0.3370127"/>
+    <node id="7902234572" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709701" lon="-0.3372272"/>
+    <node id="7902262797" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709623" lon="-0.3371999"/>
+    <node id="7902262821" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709714" lon="-0.3372316"/>
+    <node id="7902262866" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5709635" lon="-0.3372043"/>
+    <node id="7902262889" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710365" lon="-0.3372002"/>
+    <node id="7902262902" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710274" lon="-0.3371687"/>
+    <node id="7902262818" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710005" lon="-0.337333"/>
+    <node id="7902262820" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710083" lon="-0.3373603"/>
+    <node id="7902262869" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710017" lon="-0.3373374"/>
+    <node id="7902262883" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710748" lon="-0.3373333"/>
+    <node id="7902262921" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710096" lon="-0.3373647"/>
+    <node id="7902262928" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710657" lon="-0.3373018"/>
+    <node id="7902262816" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710557" lon="-0.3375249"/>
+    <node id="7902262834" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710622" lon="-0.3375479"/>
+    <node id="7902262860" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710544" lon="-0.3375206"/>
+    <node id="7902262897" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710635" lon="-0.3375522"/>
+    <node id="7902262925" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711287" lon="-0.337521"/>
+    <node id="7902262927" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711196" lon="-0.3374893"/>
+    <node id="7902234578" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.571094" lon="-0.337658"/>
+    <node id="7902262852" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711005" lon="-0.3376809"/>
+    <node id="7902262856" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711018" lon="-0.3376853"/>
+    <node id="7902262867" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5710927" lon="-0.3376537"/>
+    <node id="7902262898" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711669" lon="-0.337654"/>
+    <node id="7902262931" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711579" lon="-0.3376224"/>
+    <node id="7902262795" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711466" lon="-0.3378412"/>
+    <node id="7902262839" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5712207" lon="-0.3378417"/>
+    <node id="7902262851" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711545" lon="-0.3378685"/>
+    <node id="7902262857" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711557" lon="-0.3378729"/>
+    <node id="7902262908" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5711478" lon="-0.3378456"/>
+    <node id="7902262920" version="1" timestamp="2020-09-13T07:03:55Z" uid="718437" user="carlosz22" changeset="90811295" lat="39.5712116" lon="-0.3378101"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="7902262879"/>
+      <nd ref="7902262907"/>
+      <nd ref="7902262864"/>
+      <nd ref="7902262805"/>
+      <nd ref="7902262879"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="7902262914"/>
+      <nd ref="7902262878"/>
+      <nd ref="7902262903"/>
+      <nd ref="7902262929"/>
+      <nd ref="7902262896"/>
+      <nd ref="7902262819"/>
+      <nd ref="7902262914"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="7902262866"/>
+      <nd ref="7902234572"/>
+      <nd ref="7902262821"/>
+      <nd ref="7902262889"/>
+      <nd ref="7902262902"/>
+      <nd ref="7902262797"/>
+      <nd ref="7902262866"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="7902262869"/>
+      <nd ref="7902262820"/>
+      <nd ref="7902262921"/>
+      <nd ref="7902262883"/>
+      <nd ref="7902262928"/>
+      <nd ref="7902262818"/>
+      <nd ref="7902262869"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-5">
+      <nd ref="7902262816"/>
+      <nd ref="7902262834"/>
+      <nd ref="7902262897"/>
+      <nd ref="7902262925"/>
+      <nd ref="7902262927"/>
+      <nd ref="7902262860"/>
+      <nd ref="7902262816"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-6">
+      <nd ref="7902234578"/>
+      <nd ref="7902262852"/>
+      <nd ref="7902262856"/>
+      <nd ref="7902262898"/>
+      <nd ref="7902262931"/>
+      <nd ref="7902262867"/>
+      <nd ref="7902234578"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-7">
+      <nd ref="7902262908"/>
+      <nd ref="7902262851"/>
+      <nd ref="7902262857"/>
+      <nd ref="7902262839"/>
+      <nd ref="7902262920"/>
+      <nd ref="7902262795"/>
+      <nd ref="7902262908"/>
+      <tag k="building:levels" v="6"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

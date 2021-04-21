@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="6611305735" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267638" lon="1.9166106"/>
+    <node id="6611305760" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267921" lon="1.9167886"/>
+    <node id="6611305774" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267593" lon="1.9167973"/>
+    <node id="6611305777" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3266987" lon="1.9166618"/>
+    <node id="6611366189" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.326817" lon="1.9167672"/>
+    <node id="6611366226" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267864" lon="1.9167758"/>
+    <node id="6611366252" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267798" lon="1.9166844"/>
+    <node id="6611366310" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267935" lon="1.9166741"/>
+    <node id="6611305769" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3263092" lon="1.9164379"/>
+    <node id="6611366193" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262177" lon="1.9163736"/>
+    <node id="6611366194" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262512" lon="1.91634"/>
+    <node id="6611366202" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262837" lon="1.9164645"/>
+    <node id="6611366228" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.326275" lon="1.9164727"/>
+    <node id="6611366233" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262254" lon="1.9163656"/>
+    <node id="6611305764" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262045" lon="1.9164937"/>
+    <node id="6611366246" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262347" lon="1.9165458"/>
+    <node id="6611366250" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262707" lon="1.9164946"/>
+    <node id="6611366271" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262462" lon="1.9164505"/>
+    <node id="6611366283" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3262751" lon="1.9165039"/>
+    <node id="6611305739" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260083" lon="1.9158303"/>
+    <node id="6611305759" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260582" lon="1.9158933"/>
+    <node id="6611366230" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3259354" lon="1.915932"/>
+    <node id="6611366279" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3259853" lon="1.915995"/>
+    <node id="6611305752" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3269905" lon="1.9169766"/>
+    <node id="6611305780" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3269295" lon="1.9168727"/>
+    <node id="6611366197" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3269953" lon="1.9168773"/>
+    <node id="6611366211" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.326924" lon="1.9169709"/>
+    <node id="6611305745" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3261239" lon="1.9162053"/>
+    <node id="6611305757" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260934" lon="1.9162405"/>
+    <node id="6611366238" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3259726" lon="1.9161743"/>
+    <node id="6611366239" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260558" lon="1.91626"/>
+    <node id="6611366241" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260013" lon="1.9162094"/>
+    <node id="6611366243" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260842" lon="1.916229"/>
+    <node id="6611366287" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260313" lon="1.9160911"/>
+    <node id="6611366298" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3260085" lon="1.9162021"/>
+    <node id="6611305768" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3271276" lon="1.9174466"/>
+    <node id="6611305770" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3270499" lon="1.917543"/>
+    <node id="6611305776" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3271284" lon="1.9174824"/>
+    <node id="6611366216" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3270681" lon="1.9173874"/>
+    <node id="6611366218" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3270692" lon="1.917413"/>
+    <node id="6611366222" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3271267" lon="1.9174107"/>
+    <node id="6611366302" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3270464" lon="1.9173878"/>
+    <node id="6611366312" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3271298" lon="1.9175402"/>
+    <node id="6611305746" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268549" lon="1.9176378"/>
+    <node id="6611305754" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267824" lon="1.9176337"/>
+    <node id="6611305756" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267906" lon="1.9176516"/>
+    <node id="6611305775" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268268" lon="1.9176484"/>
+    <node id="6611366187" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268272" lon="1.9177061"/>
+    <node id="6611366188" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268257" lon="1.9176429"/>
+    <node id="6611366192" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268306" lon="1.917723"/>
+    <node id="6611366198" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268228" lon="1.9177078"/>
+    <node id="6611366207" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.326799" lon="1.9176485"/>
+    <node id="6611366212" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267766" lon="1.9175865"/>
+    <node id="6611366221" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267791" lon="1.9176184"/>
+    <node id="6611366225" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268537" lon="1.9176323"/>
+    <node id="6611366234" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268388" lon="1.9175634"/>
+    <node id="6611366259" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267948" lon="1.917629"/>
+    <node id="6611366261" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267914" lon="1.9176554"/>
+    <node id="6611366263" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268749" lon="1.91773"/>
+    <node id="6611366273" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268354" lon="1.9177452"/>
+    <node id="6611366277" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268144" lon="1.9176467"/>
+    <node id="6611366284" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268313" lon="1.9177467"/>
+    <node id="6611366285" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267637" lon="1.9177202"/>
+    <node id="6611366294" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267741" lon="1.9177684"/>
+    <node id="6611366296" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3267832" lon="1.9176167"/>
+    <node id="6611366309" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268265" lon="1.9177246"/>
+    <node id="6611366311" version="1" timestamp="2019-07-13T05:41:11Z" uid="120406" user="Toni Guasch" changeset="72202688" lat="41.3268208" lon="1.9176984"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="6611305777"/>
+      <nd ref="6611305735"/>
+      <nd ref="6611366310"/>
+      <nd ref="6611366252"/>
+      <nd ref="6611366189"/>
+      <nd ref="6611305760"/>
+      <nd ref="6611366226"/>
+      <nd ref="6611305774"/>
+      <nd ref="6611305777"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="6611305769"/>
+      <nd ref="6611366202"/>
+      <nd ref="6611366228"/>
+      <nd ref="6611366193"/>
+      <nd ref="6611366233"/>
+      <nd ref="6611366194"/>
+      <nd ref="6611305769"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="6611366250"/>
+      <nd ref="6611366283"/>
+      <nd ref="6611366246"/>
+      <nd ref="6611305764"/>
+      <nd ref="6611366271"/>
+      <nd ref="6611366250"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:levels:underground" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="6611305739"/>
+      <nd ref="6611305759"/>
+      <nd ref="6611366279"/>
+      <nd ref="6611366230"/>
+      <nd ref="6611305739"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-5">
+      <nd ref="6611305780"/>
+      <nd ref="6611366197"/>
+      <nd ref="6611305752"/>
+      <nd ref="6611366211"/>
+      <nd ref="6611305780"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-6">
+      <nd ref="6611366287"/>
+      <nd ref="6611305745"/>
+      <nd ref="6611305757"/>
+      <nd ref="6611366243"/>
+      <nd ref="6611366239"/>
+      <nd ref="6611366298"/>
+      <nd ref="6611366241"/>
+      <nd ref="6611366238"/>
+      <nd ref="6611366287"/>
+      <tag k="building:levels" v="3"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-7">
+      <nd ref="6611366216"/>
+      <nd ref="6611366218"/>
+      <nd ref="6611366222"/>
+      <nd ref="6611305768"/>
+      <nd ref="6611305776"/>
+      <nd ref="6611366312"/>
+      <nd ref="6611305770"/>
+      <nd ref="6611366302"/>
+      <nd ref="6611366216"/>
+      <tag k="building:levels" v="1"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-8">
+      <nd ref="6611366234"/>
+      <nd ref="6611366225"/>
+      <nd ref="6611366188"/>
+      <nd ref="6611305775"/>
+      <nd ref="6611305746"/>
+      <nd ref="6611366263"/>
+      <nd ref="6611366273"/>
+      <nd ref="6611366192"/>
+      <nd ref="6611366309"/>
+      <nd ref="6611366284"/>
+      <nd ref="6611366294"/>
+      <nd ref="6611366285"/>
+      <nd ref="6611366311"/>
+      <nd ref="6611366198"/>
+      <nd ref="6611366187"/>
+      <nd ref="6611366277"/>
+      <nd ref="6611366261"/>
+      <nd ref="6611305756"/>
+      <nd ref="6611366207"/>
+      <nd ref="6611366259"/>
+      <nd ref="6611305754"/>
+      <nd ref="6611366221"/>
+      <nd ref="6611366296"/>
+      <nd ref="6611366212"/>
+      <nd ref="6611366234"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>

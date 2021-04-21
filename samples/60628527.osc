@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osmChange version="0.6" generator="libosmium/2.16.0">
+  <create>
+    <node id="5754830309" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502549" lon="1.732062"/>
+    <node id="5754830315" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2503492" lon="1.7321771"/>
+    <node id="5754831822" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2503113" lon="1.7322216"/>
+    <node id="5754831831" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.250278" lon="1.7320651"/>
+    <node id="5754831836" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502338" lon="1.7320712"/>
+    <node id="5754831844" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502461" lon="1.7320642"/>
+    <node id="5754831853" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502301" lon="1.7320745"/>
+    <node id="5754831863" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502144" lon="1.7320987"/>
+    <node id="5754831879" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502956" lon="1.7322047"/>
+    <node id="5754831883" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502972" lon="1.7322028"/>
+    <node id="5754831894" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502594" lon="1.7320616"/>
+    <node id="5754831908" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502203" lon="1.7320867"/>
+    <node id="5754831915" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502398" lon="1.7320672"/>
+    <node id="5754831920" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502372" lon="1.7321781"/>
+    <node id="5754831922" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502113" lon="1.7321409"/>
+    <node id="5754831931" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.25021" lon="1.7321154"/>
+    <node id="5754831939" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502116" lon="1.7321073"/>
+    <node id="5754831940" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502176" lon="1.7320914"/>
+    <node id="5754831949" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502097" lon="1.7321302"/>
+    <node id="5754831951" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502638" lon="1.7320618"/>
+    <node id="5754831954" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502683" lon="1.7320625"/>
+    <node id="5754831955" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502505" lon="1.7320628"/>
+    <node id="5754831976" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502611" lon="1.7321511"/>
+    <node id="5754831990" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502251" lon="1.73208"/>
+    <node id="5754830311" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2500694" lon="1.7315153"/>
+    <node id="5754831849" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2500349" lon="1.731481"/>
+    <node id="5754831912" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.250085" lon="1.731394"/>
+    <node id="5754831948" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2501197" lon="1.7314296"/>
+    <node id="5754831839" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2503227" lon="1.731162"/>
+    <node id="5754831840" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2503949" lon="1.7312048"/>
+    <node id="5754831914" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.250324" lon="1.7313251"/>
+    <node id="5754831925" version="1" timestamp="2018-07-11T21:18:25Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2503344" lon="1.7311422"/>
+    <node id="5754831938" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502765" lon="1.7312405"/>
+    <node id="5754831964" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2502635" lon="1.7312626"/>
+    <node id="5754831865" version="1" timestamp="2018-07-11T21:18:24Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2497365" lon="1.7321996"/>
+    <node id="5754831935" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.249714" lon="1.7320826"/>
+    <node id="5754831968" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2497705" lon="1.7321481"/>
+    <node id="5754831970" version="1" timestamp="2018-07-11T21:18:26Z" uid="7570892" user="yopaseopor+catastro" changeset="60628527" lat="41.2496799" lon="1.7321341"/>
+  </create>
+  <modify>
+    <way id="-1">
+      <nd ref="5754831894"/>
+      <nd ref="5754831951"/>
+      <nd ref="5754831954"/>
+      <nd ref="5754831831"/>
+      <nd ref="5754830315"/>
+      <nd ref="5754831822"/>
+      <nd ref="5754831883"/>
+      <nd ref="5754831879"/>
+      <nd ref="5754831976"/>
+      <nd ref="5754831920"/>
+      <nd ref="5754831922"/>
+      <nd ref="5754831949"/>
+      <nd ref="5754831931"/>
+      <nd ref="5754831939"/>
+      <nd ref="5754831863"/>
+      <nd ref="5754831940"/>
+      <nd ref="5754831908"/>
+      <nd ref="5754831990"/>
+      <nd ref="5754831853"/>
+      <nd ref="5754831836"/>
+      <nd ref="5754831915"/>
+      <nd ref="5754831844"/>
+      <nd ref="5754831955"/>
+      <nd ref="5754830309"/>
+      <nd ref="5754831894"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-2">
+      <nd ref="5754830311"/>
+      <nd ref="5754831849"/>
+      <nd ref="5754831912"/>
+      <nd ref="5754831948"/>
+      <nd ref="5754830311"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-3">
+      <nd ref="5754831839"/>
+      <nd ref="5754831925"/>
+      <nd ref="5754831840"/>
+      <nd ref="5754831914"/>
+      <nd ref="5754831964"/>
+      <nd ref="5754831938"/>
+      <nd ref="5754831839"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+    <way id="-4">
+      <nd ref="5754831970"/>
+      <nd ref="5754831935"/>
+      <nd ref="5754831968"/>
+      <nd ref="5754831865"/>
+      <nd ref="5754831970"/>
+      <tag k="building:levels" v="2"/>
+      <tag k="building:part" v="yes"/>
+    </way>
+  </modify>
+</osmChange>
