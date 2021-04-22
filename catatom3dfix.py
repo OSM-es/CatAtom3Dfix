@@ -21,6 +21,7 @@ description = (
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
 overpassurl = 'http://overpass-api.de/api/interpreter'
 apiurl = 'https://api06.dev.openstreetmap.org'
+apidelay = 1
 cscomment = "Fixs #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/wiki/Spanish_Cadastre/Buildings_Import/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
@@ -319,6 +320,7 @@ def main(command, arg):
                 with gzip.open(arg + '.gz', 'wb') as f_out:
                     shutil.copyfileobj(f_in, f_out)
             os.remove(arg)
+            sleep(apidelay)
     else:
         help()
 
