@@ -25,11 +25,12 @@ apidelay = 1
 cscomment = "Fixs #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
-api = osmapi.OsmApi()
 wktfab = osmium.geom.WKTFactory()
 DEBUG = True
-if not DEBUG:
-    osmapi = devapi.OsmApi(api=apiurl, passwordfile='.password')
+if DEBUG:
+    api = osmapi.OsmApi()
+else:
+    api = osmapi.OsmApi(api=apiurl, passwordfile='.password')
 
 
 class HistoryHandler(osmium.SimpleHandler):
@@ -305,7 +306,7 @@ def main(command, arg):
         else:
             upload = UploadHandler()
             upload.apply_file(arg)
-            cs = devapi.ChangesetCreate(
+            cs = api.ChangesetCreate(
                 {
                     'comment': cscomment + arg.replace('.osc', ''),
                     'source': sourcetext,
@@ -313,8 +314,8 @@ def main(command, arg):
                     'url': csurl,
                 }
             )
-            devapi.ChangesetUpload(upload.data)
-            devapi.ChangesetClose()
+            api.ChangesetUpload(upload.data)
+            api.ChangesetClose()
             print(cs)
             with open(arg, 'rb') as f_in:
                 with gzip.open(arg + '.gz', 'wb') as f_out:
