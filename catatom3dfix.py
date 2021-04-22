@@ -298,7 +298,7 @@ def main(command, arg):
             if len(cs.osc.ways) + len(cs.osc.relations) > 0:
                 cs.osc.write(DEBUG)
         if file_exists(arg):
-            pass #os.remove(arg)
+            os.remove(arg)
     elif command == 'upload':
         if DEBUG:
             print("This option is intentionally deactivated")
