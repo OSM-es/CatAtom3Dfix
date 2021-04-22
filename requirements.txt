@@ -1,6 +1,4 @@
 attrs==20.3.0
-# Editable install with no version control (catatom3dfix==0.0.0)
--e /home/javier/CatAtom3Dfix
 certifi==2020.12.5
 chardet==4.0.0
 cmake==3.18.4.post1
