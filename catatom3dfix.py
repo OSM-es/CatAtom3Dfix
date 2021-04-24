@@ -238,17 +238,20 @@ class CatChangeset:
         filename = str(cid) + '.osm'
         if file_exists(filename):
             return
-        query = ""
+        query = 'wr["building:part"];'
+        lats = []
+        lons = []
         for change in api.ChangesetDownload(cid):
-            if change['action'] == 'create' or change['action'] == 'modify':
-                if (
-                    'building' in change['data']['tag'] or
-                    'building:part' in change['data']['tag']
-                ):
+            if change['type'] == 'node':
+                lats.append(change['data']['lat'])
+                lons.append(change['data']['lon'])
+            if change['action'] in ('modify', 'create'):
+                if 'building' in change['data']['tag']:
                     query += f"{change['type']}({change['data']['id']});"
+        bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
         url = (
             overpassurl +
-            "?data=[out:xml][timeout:90];(" +
+            "?data=[out:xml][timeout:90][bbox:" + bounds + "];(" +
             query +
             ");(._;>;);out+meta;"
         )
@@ -291,6 +294,7 @@ def main(command, arg):
         history.apply_file(arg)
     elif command == 'download':
         CatChangeset.download(int(arg))
+        sleep(apidelay)
     elif command == 'process':
         fn = arg.replace('.osm', '.osc')
         if not file_exists(fn):

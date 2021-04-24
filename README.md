@@ -3,7 +3,7 @@ Script to fix the missing building parts in [Spanish Cadastre/Buildings Import][
 
 # Description
 
-See this proposal[2].
+See this [proposal][2].
 
 
 # Install
