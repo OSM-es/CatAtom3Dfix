@@ -23,7 +23,7 @@ description = (
 version = pkg_resources.require('catatom3dfix')[0].version
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
 overpassurl = 'http://overpass-api.de/api/interpreter'
-apidelay = 1
+apidelay = 5
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
@@ -273,7 +273,8 @@ class CatChangeset:
                 query +
                 ");(._;>;);out+meta;"
             )
-            wget(url, filename)
+            if wget(url, filename) > 399:
+                log.warning(f"{cid} failed to download")
         else:
             log.warning(f"{cid} is void")
 
@@ -301,13 +302,15 @@ class CatChangeset:
 
 def wget(url, filename):
     response = http.request('GET', url, preload_content=False)
-    with open(filename, 'wb') as out:
-        while True:
-            data = response.read(chunk_size)
-            if not data:
-                break
-            out.write(data)
+    if response.status < 400:
+        with open(filename, 'wb') as out:
+            while True:
+                data = response.read(chunk_size)
+                if not data:
+                    break
+                out.write(data)
     response.release_conn()
+    return response.status
     
 
 def help():
