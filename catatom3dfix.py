@@ -28,13 +28,17 @@ apidelay = 10
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
-chunk_size = 1024
+
 appid = f"catatom3dfix/{version}"
 log = logging.getLogger(appid)
 log.addHandler(logging.StreamHandler(sys.stderr))
 log.addHandler(logging.FileHandler('catatom3dfix.log'))
+log.setLevel(logging.INFO)
+
 http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=apidelay)
+
 wktfab = osmium.geom.WKTFactory()
+
 DEBUG = not file_exists('.password')
 if DEBUG:
     api = osmapi.OsmApi(appid=appid)
@@ -327,11 +331,13 @@ def main(command, arg):
         history = HistoryHandler()
         history.apply_file(arg)
     elif command == 'download':
-        if len(glob(arg + ".os*")) > 0:
+        if len(glob(arg + ".os*")) == 0:
             CatChangeset.download(int(arg))
+            if file_exists(arg + '.osm'):
+                log.info(f"{arg} downloaded")
     elif command == 'process':
         fn = arg.replace('.osm', '.osc')
-        if not file_exists(fn):
+        if len(glob(fn + '*')) == 0:
             cs = CatChangeset(arg)
             cs.get_missing_parts()
             if cs.error > 0:
@@ -347,11 +353,12 @@ def main(command, arg):
         if DEBUG:
             print("This option is intentionally deactivated")
         elif not file_exists(arg + '.gz'):
+            csid = arg.replace('.osc', '')
             upload = UploadHandler()
             upload.apply_file(arg)
             cs = api.ChangesetCreate(
                 {
-                    'comment': cscomment + arg.replace('.osc', ''),
+                    'comment': cscomment + csid,
                     'source': sourcetext,
                     'type': 'bot',
                     'url': csurl,
@@ -359,7 +366,7 @@ def main(command, arg):
             )
             api.ChangesetUpload(upload.data)
             api.ChangesetClose()
-            print(cs)
+            log.info(f"{csid} fixed in changeset {cs}")
             with open(arg, 'rb') as f_in:
                 with gzip.open(arg + '.gz', 'wb') as f_out:
                     shutil.copyfileobj(f_in, f_out)
