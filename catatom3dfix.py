@@ -1,12 +1,13 @@
 import gzip
 import os
+import pkg_resources
 import shutil
 import sys
 
 import osmapi
 import osmium
 import shapely.wkt as wktlib
-import wget
+import urllib3
 
 from argparse import ArgumentParser
 from os.path import exists as file_exists
@@ -18,18 +19,22 @@ from time import sleep
 description = (
     "Script to fix missing building parts in Spanish Cadastre/Buildings Import"
 )
+version = pkg_resources.require('catatom3dfix')[0].version
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
 overpassurl = 'http://overpass-api.de/api/interpreter'
 apidelay = 1
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
+chunk_size = 1024
+appid = f"catatom3dfix/{version}"
+http = urllib3.PoolManager(headers={'user-agent': appid})
 wktfab = osmium.geom.WKTFactory()
 DEBUG = not file_exists('.password')
 if DEBUG:
-    api = osmapi.OsmApi()
+    api = osmapi.OsmApi(appid=appid)
 else:
-    api = osmapi.OsmApi(passwordfile='.password')
+    api = osmapi.OsmApi(passwordfile='.password', appid=appid)
 
 
 class HistoryHandler(osmium.SimpleHandler):
@@ -255,7 +260,7 @@ class CatChangeset:
                 query +
                 ");(._;>;);out+meta;"
             )
-            wget.download(url, out=filename, bar=None)
+            wget(url, filename)
 
     def get_missing_parts(self):
         """Creates a OsmChange file with the missing imported parts."""
@@ -278,6 +283,17 @@ class CatChangeset:
                         way = self.get_way(g.exterior.coords, tags)
                         self.osc.add(way)
 
+
+def wget(url, filename):
+    response = http.request('GET', url, preload_content=False)
+    with open(filename, 'wb') as out:
+        while True:
+            data = response.read(chunk_size)
+            if not data:
+                break
+            out.write(data)
+    response.release_conn()
+    
 
 def help():
     print(description)
