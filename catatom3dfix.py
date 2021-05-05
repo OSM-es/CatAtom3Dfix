@@ -11,6 +11,7 @@ import shapely.wkt as wktlib
 import urllib3
 
 from argparse import ArgumentParser
+from glob import glob
 from os.path import exists as file_exists
 from osmium.osm import Area
 from osmium.osm.mutable import Node, Way, Relation
@@ -22,8 +23,8 @@ description = (
 )
 version = pkg_resources.require('catatom3dfix')[0].version
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
-overpassurl = 'http://overpass-api.de/api/interpreter'
-apidelay = 5
+overpassurl = 'https://lz4.overpass-api.de/api/interpreter'
+apidelay = 10
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
@@ -32,7 +33,7 @@ appid = f"catatom3dfix/{version}"
 log = logging.getLogger(appid)
 log.addHandler(logging.StreamHandler(sys.stderr))
 log.addHandler(logging.FileHandler('catatom3dfix.log'))
-http = urllib3.PoolManager(headers={'user-agent': appid})
+http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=apidelay)
 wktfab = osmium.geom.WKTFactory()
 DEBUG = not file_exists('.password')
 if DEBUG:
@@ -253,8 +254,6 @@ class CatChangeset:
     def download(cid):
         """Get the current versions of buildings and parts for a changeset"""
         filename = str(cid) + '.osm'
-        if file_exists(filename):
-            return
         query = 'wr["building:part"];'
         lats = []
         lons = []
@@ -269,14 +268,19 @@ class CatChangeset:
             bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
             url = (
                 overpassurl +
-                "?data=[out:xml][timeout:90][bbox:" + bounds + "];(" +
+                "?data=[out:xml][timeout:180][bbox:" + bounds + "];(" +
                 query +
                 ");(._;>;);out+meta;"
             )
-            if wget(url, filename) > 399:
-                log.warning(f"{cid} failed to download")
+            try:
+                status = wget(url, filename)
+                if status > 399:
+                    log.error(f"{cid} failed to download {status}")
+            except urllib3.exceptions.HTTPError:
+                log.error(f"{cid} failed to download")
         else:
             log.warning(f"{cid} is void")
+        sleep(apidelay)
 
     def get_missing_parts(self):
         """Creates a OsmChange file with the missing imported parts."""
@@ -301,14 +305,10 @@ class CatChangeset:
 
 
 def wget(url, filename):
-    response = http.request('GET', url, preload_content=False)
+    response = http.request('GET', url)
     if response.status < 400:
         with open(filename, 'wb') as out:
-            while True:
-                data = response.read(chunk_size)
-                if not data:
-                    break
-                out.write(data)
+            out.write(response.data)
     response.release_conn()
     return response.status
     
@@ -327,8 +327,8 @@ def main(command, arg):
         history = HistoryHandler()
         history.apply_file(arg)
     elif command == 'download':
-        CatChangeset.download(int(arg))
-        sleep(apidelay)
+        if len(glob(arg + ".os*")) > 0:
+            CatChangeset.download(int(arg))
     elif command == 'process':
         fn = arg.replace('.osm', '.osc')
         if not file_exists(fn):
@@ -336,17 +336,17 @@ def main(command, arg):
             cs.get_missing_parts()
             if cs.error > 0:
                 log.error(f"{cs.id} has errors")
-                return
-            if len(cs.osc.ways) + len(cs.osc.relations) > 0:
+            elif len(cs.osc.ways) + len(cs.osc.relations) > 0:
                 cs.osc.write(DEBUG)
             else:
                 log.warning(f"{cs.id} has no missing building parts")
         if file_exists(arg):
             os.remove(arg)
+        sleep(apidelay)
     elif command == 'upload':
         if DEBUG:
             print("This option is intentionally deactivated")
-        else:
+        elif not file_exists(arg + '.gz'):
             upload = UploadHandler()
             upload.apply_file(arg)
             cs = api.ChangesetCreate(
