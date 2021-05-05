@@ -20,17 +20,16 @@ description = (
 )
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
 overpassurl = 'http://overpass-api.de/api/interpreter'
-apiurl = 'https://api06.dev.openstreetmap.org'
 apidelay = 1
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
 wktfab = osmium.geom.WKTFactory()
-DEBUG = True
+DEBUG = !file_exists('.password')
 if DEBUG:
     api = osmapi.OsmApi()
 else:
-    api = osmapi.OsmApi(api=apiurl, passwordfile='.password')
+    api = osmapi.OsmApi(passwordfile='.password')
 
 
 class HistoryHandler(osmium.SimpleHandler):
