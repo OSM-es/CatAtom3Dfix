@@ -25,7 +25,7 @@ cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
 wktfab = osmium.geom.WKTFactory()
-DEBUG = !file_exists('.password')
+DEBUG = not file_exists('.password')
 if DEBUG:
     api = osmapi.OsmApi()
 else:
@@ -241,20 +241,21 @@ class CatChangeset:
         lats = []
         lons = []
         for change in api.ChangesetDownload(cid):
-            if change['type'] == 'node':
+            if change['type'] == 'node' and change['data']['visible']:
                 lats.append(change['data']['lat'])
                 lons.append(change['data']['lon'])
             if change['action'] in ('modify', 'create'):
                 if 'building' in change['data']['tag']:
                     query += f"{change['type']}({change['data']['id']});"
-        bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
-        url = (
-            overpassurl +
-            "?data=[out:xml][timeout:90][bbox:" + bounds + "];(" +
-            query +
-            ");(._;>;);out+meta;"
-        )
-        wget.download(url, out=filename, bar=None)
+        if len(lats) > 0 and len(lons) > 0:
+            bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
+            url = (
+                overpassurl +
+                "?data=[out:xml][timeout:90][bbox:" + bounds + "];(" +
+                query +
+                ");(._;>;);out+meta;"
+            )
+            wget.download(url, out=filename, bar=None)
 
     def get_missing_parts(self):
         """Creates a OsmChange file with the missing imported parts."""
