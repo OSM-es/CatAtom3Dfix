@@ -1,4 +1,5 @@
 import gzip
+import logging
 import os
 import pkg_resources
 import shutil
@@ -28,6 +29,9 @@ csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
 chunk_size = 1024
 appid = f"catatom3dfix/{version}"
+log = logging.getLogger(appid)
+log.addHandler(logging.StreamHandler(sys.stderr))
+log.addHandler(logging.FileHandler('catatom3dfix.log'))
 http = urllib3.PoolManager(headers={'user-agent': appid})
 wktfab = osmium.geom.WKTFactory()
 DEBUG = not file_exists('.password')
@@ -261,6 +265,8 @@ class CatChangeset:
                 ");(._;>;);out+meta;"
             )
             wget(url, filename)
+        else:
+            log.warning(f"{cid} is void")
 
     def get_missing_parts(self):
         """Creates a OsmChange file with the missing imported parts."""
@@ -318,6 +324,8 @@ def main(command, arg):
             cs.get_missing_parts()
             if len(cs.osc.ways) + len(cs.osc.relations) > 0:
                 cs.osc.write(DEBUG)
+            else:
+                log.warning(f"{cs.id} has no missing building parts")
         if file_exists(arg):
             os.remove(arg)
     elif command == 'upload':
