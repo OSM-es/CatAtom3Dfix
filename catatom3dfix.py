@@ -195,12 +195,21 @@ class CatChangeset:
         self.ways = {}
         self.building_tags = {}
         self.osc = OsmChangeset(self.id)
+        self.error = 0
         bh = BuildingsHandler(self)
         bh.apply_file(filename, locations=True)
 
-    def get_nodes_refs(self, nodes):
+    def get_nodes_refs(self, coords):
         """Get references of nodes from list of (longitude, latitude) pairs."""
-        return [self.nodes.get((n[1], n[0])).id for n in nodes]
+        nodes = []
+        for (lat, lon) in list(coords):
+            node = self.nodes.get((lon, lat))
+            if node is None:
+                log.error(f"{self.id} Invalid geometry in {lon}, {lat}")
+                self.error += 1
+            else:
+                nodes.append(node.id)
+        return nodes
 
     def get_way_ref(self, coords):
         """Get reference of a way with the geometry from coords or None."""
@@ -322,6 +331,9 @@ def main(command, arg):
         if not file_exists(fn):
             cs = CatChangeset(arg)
             cs.get_missing_parts()
+            if cs.error > 0:
+                log.error(f"{cs.id} has errors")
+                return
             if len(cs.osc.ways) + len(cs.osc.relations) > 0:
                 cs.osc.write(DEBUG)
             else:
