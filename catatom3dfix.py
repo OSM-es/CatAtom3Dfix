@@ -317,6 +317,10 @@ class CatChangeset:
                             log.error(f"{self.id} Way without nodes")
                             self.error += 1
                             return
+                        if len(way.tags) == 0:
+                            log.error(f"{self.id} Way without tags")
+                            self.error += 1
+                            return
                         self.osc.add(way)
 
 

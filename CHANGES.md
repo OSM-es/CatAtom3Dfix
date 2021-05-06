@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-06 (1.0.4)**
+
+* Detects ways without tags.
+
 **2021-05-06 (1.0.3)**
 
 * Detects void relations or ways.
