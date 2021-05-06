@@ -306,9 +306,17 @@ class CatChangeset:
                         return
                     elif len(g.interiors) > 0:
                         rel = self.get_relation(g, tags)
+                        if len(rel.members) == 0:
+                            log.error(f"{self.id} Relation without members")
+                            self.error += 1
+                            return
                         self.osc.add(rel)
                     else:
                         way = self.get_way(g.exterior.coords, tags)
+                        if len(way.nodes) == 0:
+                            log.error(f"{self.id} Way without nodes")
+                            self.error += 1
+                            return
                         self.osc.add(way)
 
 
@@ -342,17 +350,17 @@ def main(command, arg):
     elif command == 'process':
         fn = arg.replace('.osm', '.osc')
         if len(glob(fn + '*')) == 0:
-            cs = CatChangeset(arg)
-            cs.get_missing_parts()
-            if cs.error > 0:
-                log.error(f"{cs.id} has errors")
-            elif len(cs.osc.ways) + len(cs.osc.relations) > 0:
-                try:
+            try:
+                cs = CatChangeset(arg)
+                cs.get_missing_parts()
+                if cs.error > 0:
+                    log.error(f"{cs.id} has errors")
+                elif len(cs.osc.ways) + len(cs.osc.relations) > 0:
                     cs.osc.write(DEBUG)
-                except RuntimeError:
-                    log.error(f"{cs.id} runtime error")
-            else:
-                log.warning(f"{cs.id} has no missing building parts")
+                else:
+                    log.warning(f"{cs.id} has no missing building parts")
+            except RuntimeError:
+                log.error(f"{arg.replace('.osm', '')} runtime error")
         if file_exists(arg):
             os.remove(arg)
         sleep(apidelay)

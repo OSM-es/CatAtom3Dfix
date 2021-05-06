@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-06 (1.0.3)**
+
+* Detects void relations or ways.
+
 **2021-05-05 (1.0.2)**
 
 * Tweak Overpass timeouts.
