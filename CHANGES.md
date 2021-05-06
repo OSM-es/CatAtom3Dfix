@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-06 (1.0.5)**
+
+* Fixes error uploading relations.
+
 **2021-05-06 (1.0.4)**
 
 * Detects ways without tags.

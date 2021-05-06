@@ -145,8 +145,12 @@ class UploadHandler(osmium.SimpleHandler):
     
     def relation(self, r):
         action = 'create' if r.id < 0 else 'modify'
-        members = [dict(type=m.type, ref=m.ref, role=m.role) for m in r.members]
-        data = {'id': r.id, 'members': members, 'tag': dict(r.tags)}
+        osmtypes = {'n': 'node', 'w': 'way', 'r': 'relation'}
+        members = [
+            dict(type=osmtypes[m.type], ref=m.ref, role=m.role)
+            for m in r.members
+        ]
+        data = {'id': r.id, 'member': members, 'tag': dict(r.tags)}
         self.data.append({'type': 'relation', 'action': action, 'data': data})
 
 
