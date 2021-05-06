@@ -300,7 +300,11 @@ class CatChangeset:
             if not diff.is_empty and not diff.equals(geom):
                 geoms = getattr(diff, 'geoms', [diff])
                 for g in geoms:
-                    if len(g.interiors) > 0:
+                    if not hasattr(g, 'interiors'):
+                        log.error(f"{self.id} Invalid multipolygon")
+                        self.error += 1
+                        return
+                    elif len(g.interiors) > 0:
                         rel = self.get_relation(g, tags)
                         self.osc.add(rel)
                     else:
@@ -343,7 +347,10 @@ def main(command, arg):
             if cs.error > 0:
                 log.error(f"{cs.id} has errors")
             elif len(cs.osc.ways) + len(cs.osc.relations) > 0:
-                cs.osc.write(DEBUG)
+                try:
+                    cs.osc.write(DEBUG)
+                except RuntimeError:
+                    log.error(f"{cs.id} runtime error")
             else:
                 log.warning(f"{cs.id} has no missing building parts")
         if file_exists(arg):
