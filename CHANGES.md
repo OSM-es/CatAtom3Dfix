@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-07 (1.0.6)**
+
+* Adds warning for parts without levels.
+
 **2021-05-06 (1.0.5)**
 
 * Fixes error uploading relations.

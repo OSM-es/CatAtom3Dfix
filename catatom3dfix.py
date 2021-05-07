@@ -295,6 +295,8 @@ class CatChangeset:
         for bid in self.buildings:
             tags = self.building_tags[bid]
             tags['building:part'] = 'yes'
+            if 'building:levels' not in tags:
+                log.warning(f"{self.id} part without levels")
             geom = self.geoms[bid]
             diff = geom
             for pid in self.parts:
