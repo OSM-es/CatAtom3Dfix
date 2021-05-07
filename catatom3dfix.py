@@ -311,14 +311,14 @@ class CatChangeset:
                         self.error += 1
                         return
                     elif len(g.interiors) > 0:
-                        rel = self.get_relation(g, tags)
+                        rel = self.get_relation(g, dict(tags))
                         if len(rel.members) == 0:
                             log.error(f"{self.id} Relation without members")
                             self.error += 1
                             return
                         self.osc.add(rel)
                     else:
-                        way = self.get_way(g.exterior.coords, tags)
+                        way = self.get_way(g.exterior.coords, dict(tags))
                         if len(way.nodes) == 0:
                             log.error(f"{self.id} Way without nodes")
                             self.error += 1
