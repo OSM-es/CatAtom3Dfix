@@ -1,5 +1,5 @@
 attrs==20.3.0
--e git+https://github.com/OSM-es/CatAtom3Dfix.git@8bf8713ab85c17d0a88fbb5e5e7746ae622567cf#egg=catatom3dfix
+-e .
 certifi==2020.12.5
 chardet==4.0.0
 idna==2.10

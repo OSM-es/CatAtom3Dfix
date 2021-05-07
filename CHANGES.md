@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-07 (1.0.7)**
+
+* Fixes undetected orphand relation members.
+
 **2021-05-07 (1.0.6)**
 
 * Fixes wrong type=multipoligon in some ways.

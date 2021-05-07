@@ -370,10 +370,11 @@ def main(command, arg):
                 else:
                     log.warning(f"{cs.id} has no missing building parts")
             except RuntimeError:
+                if file_exists(fn):
+                    os.remove(fn)
                 log.error(f"{arg.replace('.osm', '')} runtime error")
         if file_exists(arg):
             os.remove(arg)
-        sleep(apidelay)
     elif command == 'upload':
         if DEBUG:
             print("This option is intentionally deactivated")
