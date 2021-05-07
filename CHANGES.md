@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-07 (1.0.8)**
+
+* Fixes duplicated ways.
+
 **2021-05-07 (1.0.7)**
 
 * Fixes undetected orphand relation members.

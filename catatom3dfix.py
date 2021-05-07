@@ -269,7 +269,7 @@ class CatChangeset:
             if change['type'] == 'node' and change['data']['visible']:
                 lats.append(change['data']['lat'])
                 lons.append(change['data']['lon'])
-            if change['action'] in ('modify', 'create'):
+            if change['action'] == 'create':
                 if 'building' in change['data']['tag']:
                     query += f"{change['type']}({change['data']['id']});"
         if len(lats) > 0 and len(lons) > 0:
