@@ -23,21 +23,21 @@ more information.
 Clone or copy the repository, make a virtual environment and install the 
 requeriments.
 
-  git clone https://github.com/OSM-es/CatAtom3Dfix.git
-  cd CatAtom3Dfix
-  python3 -m venv venv
-  source venv/bin/activate
-  pip3 install -r requirements.txt
+    git clone https://github.com/OSM-es/CatAtom3Dfix.git
+    cd CatAtom3Dfix
+    python3 -m venv venv
+    source venv/bin/activate
+    pip3 install -r requirements.txt
 
 
 # Usage
 
-  python3 catatom3dfix.py catatom3dfix.py command arg
+    python3 catatom3dfix.py catatom3dfix.py command arg
 
 
 ## List
 
-  python3 catatom3dfix.py list <path-to-history-file>
+    python3 catatom3dfix.py list <path-to-history-file>
 
 Get the identifiers of the Spanish Cadastre Buildings Import changesets from 
 [Full History Planet XML file][6]. As this is file is huge and the script 
@@ -47,7 +47,7 @@ file 'changesets.list'.
 
 ## Download
 
-  python3 catatom3dfix.py download <changeset-id>
+    python3 catatom3dfix.py download <changeset-id>
 
 Get the current data for a changeset and put the result in <changeset-id>.osm.
 It needs a call to the [API][7] to get the ids of the buildings and its parts 
@@ -56,7 +56,7 @@ and another to [Overpass API][8] for their current versions.
 
 ## Process
 
-  python3 catatom3dfix.py process <path-to-osm-file>
+    python3 catatom3dfix.py process <path-to-osm-file>
 
 Reads the previous file and generates a osc file with the missing building 
 parts.
@@ -71,7 +71,7 @@ ways (if used in multipolygon relations).
 
 ## Upload
 
-  python3 catatom3dfix.py <path-to-osmchange-file>
+    python3 catatom3dfix.py <path-to-osmchange-file>
 
 Uploads the file to OSM in a single request. If result is OK, prints the new
 changeset id. 
