@@ -2,6 +2,7 @@ attrs==20.3.0
 -e .
 certifi==2020.12.5
 chardet==4.0.0
+cmake==3.18.4.post1
 idna==2.10
 importlib-metadata==4.0.1
 iniconfig==1.1.1

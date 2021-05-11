@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-11 (1.0.9)**
+
+* Adds cmake to requirements
+
 **2021-05-07 (1.0.8)**
 
 * Fixes duplicated ways.
