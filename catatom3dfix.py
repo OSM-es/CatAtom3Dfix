@@ -113,6 +113,11 @@ class BuildingsHandler(osmium.SimpleHandler):
         """Get building and parts geometries and building tags"""
         aid = int(area.id / 2)
         if area.tags.get('building') is not None:
+            if (
+                self.cs.buildings_ids != '' and
+                str(aid) not in self.cs.buildings_ids
+            ): # Skips buildings that don't belong to this changeset
+                return
             self.cs.buildings.append(aid)
             tags = {
                 tag.k: tag.v for tag in area.tags 
@@ -205,6 +210,11 @@ class CatChangeset:
         self.building_tags = {}
         self.osc = OsmChangeset(self.id)
         self.error = 0
+        self.buildings_ids = ''
+        fn = f"{self.id}.txt"
+        if file_exists(fn):
+            with open(fn) as fo:
+                self.buildings_ids = fo.read()
         bh = BuildingsHandler(self)
         bh.apply_file(filename, locations=True)
 
@@ -262,21 +272,25 @@ class CatChangeset:
     def download(cid):
         """Get the current versions of buildings and parts for a changeset"""
         filename = str(cid) + '.osm'
-        query = 'wr["building:part"];'
+        query = ''
         lats = []
         lons = []
         for change in api.ChangesetDownload(cid):
-            if change['type'] == 'node' and change['data']['visible']:
-                lats.append(change['data']['lat'])
-                lons.append(change['data']['lon'])
             if change['action'] == 'create':
+                if change['type'] == 'node' and change['data']['visible']:
+                    lats.append(change['data']['lat'])
+                    lons.append(change['data']['lon'])
                 if 'building' in change['data']['tag']:
                     query += f"{change['type']}({change['data']['id']});"
         if len(lats) > 0 and len(lons) > 0:
+            if len(query) > 0:
+                with open(str(cid) + '.txt', 'w') as fo:
+                    fo.write(query)
             bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
             url = (
                 overpassurl +
                 "?data=[out:xml][timeout:180][bbox:" + bounds + "];(" +
+                'wr["building:part"];' +
                 query +
                 ");(._;>;);out+meta;"
             )
