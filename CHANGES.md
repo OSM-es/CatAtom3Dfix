@@ -1,8 +1,12 @@
 # Change log
 
+**2021-05-13 (1.1.0)**
+
+* Adds support to process big pbf files.
+
 **2021-05-13 (1.0.10)**
 
-* Fixes more duplicated ways coming from buildings referred by building:part relations
+* Fixes more duplicated ways coming from buildings referred by building:part relations.
 
 **2021-05-11 (1.0.9)**
 

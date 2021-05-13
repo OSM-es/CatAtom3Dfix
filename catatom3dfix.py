@@ -7,6 +7,7 @@ import sys
 
 import osmapi
 import osmium
+import rtree
 import shapely.wkt as wktlib
 import urllib3
 
@@ -97,9 +98,12 @@ class BuildingsHandler(osmium.SimpleHandler):
 
     def node(self, node):
         """Get nodes for conflation"""
-        self.cs.nodes[(node.location.lat, node.location.lon)] = Node(
-            base=node, tags=dict(node.tags)
+        bounds = (
+            node.location.lat, node.location.lon,
+            node.location.lat, node.location.lon,
         )
+        self.cs.nodes_idx.insert(node.id, bounds)
+        self.cs.nodes[node.id] = Node(base=node, tags=dict(node.tags))
     
     def way(self, way):
         """Get rings geometries for conflation"""
@@ -107,7 +111,9 @@ class BuildingsHandler(osmium.SimpleHandler):
             self.cs.ways[way.id] = Way(
                 base=way, tags=dict(way.tags), nodes=[n.ref for n in way.nodes]
             )
-            self.cs.geoms[way.id] = self.get_polygon(way)
+            geom = self.get_polygon(way)
+            self.cs.geoms[way.id] = geom
+            self.cs.ways_idx.insert(way.id, geom.bounds)
 
     def area(self, area):
         """Get building and parts geometries and building tags"""
@@ -125,9 +131,11 @@ class BuildingsHandler(osmium.SimpleHandler):
             }
             self.cs.geoms[aid] = self.get_polygon(area)
             self.cs.building_tags[aid] = tags
-        if area.tags.get('building:part') is not None:
+        elif area.tags.get('building:part') is not None:
             self.cs.parts.append(aid)
-            self.cs.geoms[aid] = self.get_polygon(area)
+            geom = self.get_polygon(area)
+            self.cs.geoms[aid] = geom
+            self.cs.parts_idx.insert(aid, geom.bounds)
 
 
 class UploadHandler(osmium.SimpleHandler):
@@ -201,12 +209,15 @@ class CatChangeset:
     """Defines Cadastre changesets"""
 
     def __init__(self, filename):
-        self.id = int(filename.replace('.osm', ''))
+        self.id = int(filename.replace('.osm', '').replace('.pbf', ''))
         self.buildings = []
         self.parts = []
         self.geoms = {}
         self.nodes = {}
         self.ways = {}
+        self.parts_idx = rtree.index.Index()
+        self.ways_idx = rtree.index.Index()
+        self.nodes_idx = rtree.index.Index()
         self.building_tags = {}
         self.osc = OsmChangeset(self.id)
         self.error = 0
@@ -222,17 +233,20 @@ class CatChangeset:
         """Get references of nodes from list of (longitude, latitude) pairs."""
         nodes = []
         for (lat, lon) in list(coords):
-            node = self.nodes.get((lon, lat))
-            if node is None:
+            try:
+                ref = list(self.nodes_idx.intersection((lon, lat, lon, lat)))[0]
+                nodes.append(ref)
+            except IndexError:
                 log.error(f"{self.id} Invalid geometry in {lon}, {lat}")
                 self.error += 1
-            else:
-                nodes.append(node.id)
         return nodes
 
     def get_way_ref(self, coords):
         """Get reference of a way with the geometry from coords or None."""
-        for ref, g in self.geoms.items():
+        x, y = coords.xy
+        bounds = (min(x), min(y), max(x), max(y))
+        for ref in self.ways_idx.intersection(bounds):
+            g = self.geoms[ref]
             if g.equals(BuildingsHandler.get_polygon(coords)):
                 return ref
         return None
@@ -309,36 +323,36 @@ class CatChangeset:
         for bid in self.buildings:
             tags = self.building_tags[bid]
             tags['building:part'] = 'yes'
-            if 'building:levels' not in tags:
-                log.warning(f"{self.id} part without levels")
             geom = self.geoms[bid]
             diff = geom
-            for pid in self.parts:
-                diff = diff - self.geoms[pid]
-                if diff.is_empty:
-                    break
+            for pid in self.parts_idx.intersection(geom.bounds):
+                part = self.geoms[pid]
+                if part.intersects(geom):
+                    diff = diff - part
             if not diff.is_empty and not diff.equals(geom):
+                if 'building:levels' not in tags:
+                    log.warning(f"{self.id} building {bid} without levels")
                 geoms = getattr(diff, 'geoms', [diff])
                 for g in geoms:
                     if not hasattr(g, 'interiors'):
-                        log.error(f"{self.id} Invalid multipolygon")
+                        log.error(f"{self.id} Invalid multipolygon {bid}")
                         self.error += 1
                         return
                     elif len(g.interiors) > 0:
                         rel = self.get_relation(g, dict(tags))
                         if len(rel.members) == 0:
-                            log.error(f"{self.id} Relation without members")
+                            log.error(f"{self.id} Relation without members {bid}")
                             self.error += 1
                             return
                         self.osc.add(rel)
                     else:
                         way = self.get_way(g.exterior.coords, dict(tags))
                         if len(way.nodes) == 0:
-                            log.error(f"{self.id} Way without nodes")
+                            log.error(f"{self.id} Way without nodes {bid}")
                             self.error += 1
                             return
                         if len(way.tags) == 0:
-                            log.error(f"{self.id} Way without tags")
+                            log.error(f"{self.id} Way without tags {bid}")
                             self.error += 1
                             return
                         self.osc.add(way)
@@ -376,6 +390,10 @@ def main(command, arg):
         if len(glob(fn + '*')) == 0:
             try:
                 cs = CatChangeset(arg)
+                log.info(
+                    f"{cs.id} has {len(cs.buildings)} buildings and "
+                    f"{len(cs.parts)} parts"
+                )
                 cs.get_missing_parts()
                 if cs.error > 0:
                     log.error(f"{cs.id} has errors")
