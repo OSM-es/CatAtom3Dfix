@@ -276,8 +276,8 @@ class CatChangeset:
         members = [('way', way.id, 'outer')]
         for ring in geom.interiors:
             way = self.get_way(ring.coords)
-            members.append(('way', way.id, 'inner'))
             self.osc.add(way)
+            members.append(('way', way.id, 'inner'))
         rel = Relation(id=None, members=members, tags=tags)
         rel.tags['type'] = 'multipolygon'
         return rel

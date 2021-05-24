@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-24 (1.1.1)**
+
+* Fix error refering relation new members.
+
 **2021-05-13 (1.1.0)**
 
 * Adds support to process big pbf files.
