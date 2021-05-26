@@ -155,7 +155,12 @@ class UploadHandler(osmium.SimpleHandler):
     
     def way(self, w):
         action = 'create' if w.id < 0 else 'modify'
-        data = {'id': w.id, 'nd': [n.ref for n in w.nodes], 'tag': dict(w.tags)}
+        data = {
+            'id': w.id,
+            'version': w.version,
+            'nd': [n.ref for n in w.nodes],
+            'tag': dict(w.tags),
+        }
         self.data.append({'type': 'way', 'action': action, 'data': data})
     
     def relation(self, r):
@@ -192,17 +197,17 @@ class OsmChangeset:
         elif type(elem) is Relation:
             self.relations.append(elem)
 
-    def write(self, include_modify=False):
-        """Generates file with new and optionally existing data"""
+    def write(self, include_existing=False):
+        """Generates file with new/modified and optionally existing data"""
         writer = osmium.SimpleWriter(self.filename)
         for node in self.nodes:
-            if include_modify or node.id < 0:
+            if include_existing or node.id < 0:
                 writer.add_node(node)
         for way in self.ways:
-            if include_modify or way.id < 0:
+            if getattr(way, 'modified', False) or include_existing or way.id < 0:
                 writer.add_way(way)
         for rel in self.relations:
-            if include_modify or rel.id < 0:
+            if include_existing or rel.id < 0:
                 writer.add_relation(rel)
         writer.close()
 
@@ -360,6 +365,8 @@ class CatChangeset:
                         self.osc.add(rel)
                     else:
                         way = self.get_way(g.exterior.coords, dict(tags))
+                        if way.id > 0:
+                            way.modified = True
                         if len(way.nodes) == 0:
                             log.error(f"{self.id} Way without nodes {bid}")
                             self.error += 1

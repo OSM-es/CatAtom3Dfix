@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-26 (1.2.1)**
+
+* Fixes missing modified ways.
+
 **2021-05-26 (1.2.0)**
 
 * Adds check of narrow vertices.
