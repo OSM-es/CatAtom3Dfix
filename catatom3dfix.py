@@ -365,7 +365,7 @@ class CatChangeset:
                         self.osc.add(rel)
                     else:
                         way = self.get_way(g.exterior.coords, dict(tags))
-                        if way.id > 0:
+                        if way.id is not None and way.id > 0:
                             way.modified = True
                         if len(way.nodes) == 0:
                             log.error(f"{self.id} Way without nodes {bid}")
