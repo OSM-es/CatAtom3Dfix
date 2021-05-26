@@ -1,5 +1,6 @@
 import gzip
 import logging
+import math
 import os
 import pkg_resources
 import shutil
@@ -29,6 +30,7 @@ apidelay = 10
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
+angle_thr = 5
 
 appid = f"catatom3dfix/{version}"
 log = logging.getLogger(appid)
@@ -251,10 +253,21 @@ class CatChangeset:
                 return ref
         return None
 
+    def check_vertices(self, coords):
+        """Check geometry of polygon"""
+        for i, coord in enumerate(coords[:-1]):
+            prev = coords[-2] if i == 0 else coords[i - 1]
+            post = coords[0] if i == len(coords) - 2 else coords[i + 1]
+            angle = self.get_angle(prev, coord, post)
+            if  angle < angle_thr:
+                log.error(f"{self.id} Vertex too narrow at {coord[0]}, {coord[1]}")
+                self.error += 1
+
     def get_way(self, coords, tags=None):
         """Get way if exists or creates a new one."""
         ref = self.get_way_ref(coords)
         if ref is None:
+            self.check_vertices(coords)
             nodes = self.get_nodes_refs(coords)
             way = Way(id=None, nodes=nodes)
         else:
@@ -276,8 +289,8 @@ class CatChangeset:
         members = [('way', way.id, 'outer')]
         for ring in geom.interiors:
             way = self.get_way(ring.coords)
-            self.osc.add(way)
             members.append(('way', way.id, 'inner'))
+            self.osc.add(way)
         rel = Relation(id=None, members=members, tags=tags)
         rel.tags['type'] = 'multipolygon'
         return rel
@@ -358,6 +371,10 @@ class CatChangeset:
                         self.osc.add(way)
 
 
+def get_angle(a, b, c):
+    ang = math.degrees(math.atan2(c[1]-b[1], c[0]-b[0]) - math.atan2(a[1]-b[1], a[0]-b[0]))
+    return ang + 360 if ang < 0 else ang
+
 def wget(url, filename):
     response = http.request('GET', url)
     if response.status < 400:
@@ -366,7 +383,6 @@ def wget(url, filename):
     response.release_conn()
     return response.status
     
-
 def help():
     print(description)
     print(f"\nusage: {sys.argv[0]} command arg\n")
