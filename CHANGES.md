@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-26 (1.2.0)**
+
+* Adds check of narrow vertices.
+
 **2021-05-24 (1.1.1)**
 
 * Fix error refering relation new members.
