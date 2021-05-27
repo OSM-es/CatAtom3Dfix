@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-27 (1.2.2)**
+
+* Fix error refering relation new members (again).
+
 **2021-05-26 (1.2.1)**
 
 * Fixes missing modified ways.
