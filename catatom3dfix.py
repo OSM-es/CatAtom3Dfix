@@ -24,6 +24,7 @@ description = (
     "Script to fix missing building parts in Spanish Cadastre/Buildings Import"
 )
 version = pkg_resources.require('catatom3dfix')[0].version
+user = 'catatom3dfix'
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
 overpassurl = 'https://lz4.overpass-api.de/api/interpreter'
 apidelay = 10
@@ -61,9 +62,10 @@ class HistoryHandler(osmium.SimpleHandler):
             return
         if (
             cs.tags.get('type') == 'import' and 
-            cs.tags.get('source') == sourcetext
+            sourcetext in cs.tags.get('source', '') and
+            cs.user != user
         ):
-            print(cs.id)
+            print(f"{cs.id}\t{cs.user}\t{cs.closed_at}\t{cs.tags.get('comment', '')}")
 
 
 class BuildingsHandler(osmium.SimpleHandler):
@@ -334,7 +336,6 @@ class CatChangeset:
                 log.error(f"{cid} failed to download")
         else:
             log.warning(f"{cid} is void")
-        sleep(apidelay)
 
     def get_missing_parts(self):
         """Creates a OsmChange file with the missing imported parts."""
@@ -408,6 +409,7 @@ def main(command, arg):
             CatChangeset.download(int(arg))
             if file_exists(arg + '.osm'):
                 log.info(f"{arg} downloaded")
+            sleep(apidelay)
     elif command == 'process':
         fn = arg.replace('.osm', '.osc')
         if len(glob(fn + '*')) == 0:

@@ -1,8 +1,12 @@
 # Change log
 
+**2021-05-30 (1.2.3)**
+
+* Fixes list of changesets with mixed source.  
+
 **2021-05-27 (1.2.2)**
 
-* Fix error refering relation new members (again).
+* Fixes error refering relation new members (again).
 
 **2021-05-26 (1.2.1)**
 
@@ -14,7 +18,7 @@
 
 **2021-05-24 (1.1.1)**
 
-* Fix error refering relation new members.
+* Fixes error refering relation new members.
 
 **2021-05-13 (1.1.0)**
 
