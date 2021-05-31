@@ -1,5 +1,9 @@
 # Change log
 
+**2021-05-31 (1.2.4)**
+
+* Fixes download timeout for slow Overpass responses.
+
 **2021-05-30 (1.2.3)**
 
 * Fixes list of changesets with mixed source.  

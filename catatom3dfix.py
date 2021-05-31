@@ -28,6 +28,7 @@ user = 'catatom3dfix'
 usage = "catastro3dfix.py [OPTIONS] <PATH>"
 overpassurl = 'https://lz4.overpass-api.de/api/interpreter'
 apidelay = 10
+opdelay=180
 cscomment = "Fixes #Spanish_Cadastre_Buildings_Import Simple 3D Buildings for cs "
 csurl = 'https://wiki.openstreetmap.org/Automated_edits/CatAtom3Dfix'
 sourcetext = "Dirección General del Catastro"
@@ -39,7 +40,7 @@ log.addHandler(logging.StreamHandler(sys.stderr))
 log.addHandler(logging.FileHandler('catatom3dfix.log'))
 log.setLevel(logging.INFO)
 
-http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=apidelay)
+http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=opdelay)
 
 wktfab = osmium.geom.WKTFactory()
 
@@ -322,11 +323,9 @@ class CatChangeset:
                     fo.write(query)
             bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
             url = (
-                overpassurl +
-                "?data=[out:xml][timeout:180][bbox:" + bounds + "];(" +
-                'wr["building:part"];' +
-                query +
-                ");(._;>;);out+meta;"
+                f"{overpassurl}?data=[out:xml][timeout:{opdelay}]"
+                f"[bbox:{bounds}];(wr[\"building:part\"];{query});"
+                f"(._;>;);out+meta;"
             )
             try:
                 status = wget(url, filename)
