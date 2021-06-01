@@ -1,5 +1,9 @@
 # Change log
 
+**2021-06-01 (1.3.1)**
+
+* Fixes download timeout for slow Overpass responses.
+
 **2021-06-01 (1.3.0)**
 
 * Handles upload conflicts.

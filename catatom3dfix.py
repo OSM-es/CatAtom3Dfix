@@ -40,7 +40,7 @@ log.addHandler(logging.StreamHandler(sys.stderr))
 log.addHandler(logging.FileHandler('catatom3dfix.log'))
 log.setLevel(logging.INFO)
 
-http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=opdelay)
+http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=urllib3.Timeout(read=opdelay))
 
 wktfab = osmium.geom.WKTFactory()
 
