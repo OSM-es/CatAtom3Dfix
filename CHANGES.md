@@ -1,5 +1,9 @@
 # Change log
 
+**2021-06-01 (1.2.5)**
+
+* Fixes download failing to include conflated buildings.
+
 **2021-05-31 (1.2.4)**
 
 * Fixes download timeout for slow Overpass responses.

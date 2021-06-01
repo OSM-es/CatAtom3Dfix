@@ -44,7 +44,7 @@ http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=opdelay)
 
 wktfab = osmium.geom.WKTFactory()
 
-DEBUG = not file_exists('.password')
+DEBUG = True #not file_exists('.password')
 if DEBUG:
     api = osmapi.OsmApi(appid=appid)
 else:
@@ -308,20 +308,18 @@ class CatChangeset:
         """Get the current versions of buildings and parts for a changeset"""
         filename = str(cid) + '.osm'
         query = ''
-        lats = []
-        lons = []
+        cs = api.ChangesetGet(cid)
+        uid = cs['uid']
+        bounds = f"{cs['min_lat']},{cs['min_lon']},{cs['max_lat']},{cs['max_lon']}"
         for change in api.ChangesetDownload(cid):
-            if change['action'] == 'create':
-                if change['type'] == 'node' and change['data']['visible']:
-                    lats.append(change['data']['lat'])
-                    lons.append(change['data']['lon'])
+            if change['action'] == 'create' or (
+                change['action'] == 'modify' and change['data']['uid'] == uid
+            ):
                 if 'building' in change['data']['tag']:
                     query += f"{change['type']}({change['data']['id']});"
-        if len(lats) > 0 and len(lons) > 0:
-            if len(query) > 0:
-                with open(str(cid) + '.txt', 'w') as fo:
-                    fo.write(query)
-            bounds = f"{min(lats)},{min(lons)},{max(lats)},{max(lons)}"
+        with open(str(cid) + '.txt', 'w') as fo:
+            fo.write(query)
+        if len(query) > 0:
             url = (
                 f"{overpassurl}?data=[out:xml][timeout:{opdelay}]"
                 f"[bbox:{bounds}];(wr[\"building:part\"];{query});"
@@ -404,7 +402,7 @@ def main(command, arg):
         history = HistoryHandler()
         history.apply_file(arg)
     elif command == 'download':
-        if len(glob(arg + ".os*")) == 0:
+        if len(glob(arg + ".*")) == 0:
             CatChangeset.download(int(arg))
             if file_exists(arg + '.osm'):
                 log.info(f"{arg} downloaded")
