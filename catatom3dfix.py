@@ -44,7 +44,7 @@ http = urllib3.PoolManager(headers={'user-agent': appid}, timeout=opdelay)
 
 wktfab = osmium.geom.WKTFactory()
 
-DEBUG = True #not file_exists('.password')
+DEBUG = not file_exists('.password')
 if DEBUG:
     api = osmapi.OsmApi(appid=appid)
 else:
@@ -444,13 +444,17 @@ def main(command, arg):
                     'url': csurl,
                 }
             )
-            api.ChangesetUpload(upload.data)
-            api.ChangesetClose()
-            log.info(f"{csid} fixed in changeset {cs}")
-            with open(arg, 'rb') as f_in:
-                with gzip.open(arg + '.gz', 'wb') as f_out:
-                    shutil.copyfileobj(f_in, f_out)
-            os.remove(arg)
+            try:
+                api.ChangesetUpload(upload.data)
+                api.ChangesetClose()
+                log.info(f"{csid} fixed in changeset {cs}")
+                with open(arg, 'rb') as f_in:
+                    with gzip.open(arg + '.gz', 'wb') as f_out:
+                        shutil.copyfileobj(f_in, f_out)
+                os.remove(arg)
+            except osmapi.ApiError as e:
+                log.error(f"{csid} {str(e)}")
+                os.rename(arg, arg + '.failed')
             sleep(apidelay)
     else:
         help()

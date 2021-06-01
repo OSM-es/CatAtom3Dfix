@@ -1,5 +1,9 @@
 # Change log
 
+**2021-06-01 (1.3.0)**
+
+* Handles upload conflicts.
+
 **2021-06-01 (1.2.5)**
 
 * Fixes download failing to include conflated buildings.
