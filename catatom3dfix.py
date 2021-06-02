@@ -330,7 +330,7 @@ class CatChangeset:
                 if status > 399:
                     log.error(f"{cid} failed to download {status}")
                 else:
-                    log.info(f"{arg} downloaded")
+                    log.info(f"{cid} downloaded")
             except urllib3.exceptions.HTTPError:
                 log.error(f"{cid} failed to download")
                 os.remove(str(cid) + '.txt')
