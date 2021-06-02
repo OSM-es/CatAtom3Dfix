@@ -329,8 +329,11 @@ class CatChangeset:
                 status = wget(url, filename)
                 if status > 399:
                     log.error(f"{cid} failed to download {status}")
+                else:
+                    log.info(f"{arg} downloaded")
             except urllib3.exceptions.HTTPError:
                 log.error(f"{cid} failed to download")
+                os.remove(str(cid) + '.txt')
         else:
             log.warning(f"{cid} is void")
 
@@ -404,8 +407,6 @@ def main(command, arg):
     elif command == 'download':
         if len(glob(arg + ".*")) == 0:
             CatChangeset.download(int(arg))
-            if file_exists(arg + '.osm'):
-                log.info(f"{arg} downloaded")
             sleep(apidelay)
     elif command == 'process':
         fn = arg.replace('.osm', '.osc')

@@ -1,5 +1,9 @@
 # Change log
 
+**2021-06-02 (1.3.2)**
+
+* Unmarks failed downloads to retry.
+
 **2021-06-01 (1.3.1)**
 
 * Fixes download timeout for slow Overpass responses.
