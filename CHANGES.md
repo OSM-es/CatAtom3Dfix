@@ -1,5 +1,9 @@
 # Change log
 
+**2021.06.03 (1.3.3)**
+
+* Normalize coordinates output.
+
 **2021-06-02 (1.3.2)**
 
 * Unmarks failed downloads to retry.

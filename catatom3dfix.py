@@ -247,7 +247,7 @@ class CatChangeset:
                 ref = list(self.nodes_idx.intersection((lon, lat, lon, lat)))[0]
                 nodes.append(ref)
             except IndexError:
-                log.error(f"{self.id} Invalid geometry in {lon}, {lat}")
+                log.error(f"{self.id} Invalid geometry in {lat}, {lon}")
                 self.error += 1
         return nodes
 
@@ -418,7 +418,7 @@ def main(command, arg):
                     f"{len(cs.parts)} parts"
                 )
                 cs.get_missing_parts()
-                if cs.error > 0:
+                if cs.error > 0 and not DEBUG:
                     log.error(f"{cs.id} has errors")
                 elif len(cs.osc.ways) + len(cs.osc.relations) > 0:
                     cs.osc.write(DEBUG)
